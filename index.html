@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/quizz.css">
 <link rel="stylesheet" href="css/jquery.fancybox.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/css_slider.css">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -299,7 +300,7 @@
             <img class="present__image" src="img/present.png" alt="Дом">
           </div>
           <div class="col-md-4">
-            <button class="present__button">Получить</button>
+            <button data-target=".modal_callback" data-toggle="modal" class="present__button">Получить</button>
           </div>
           <div class="col-md-4">
             <p class="present__price">стоимость проекта</p>
@@ -675,17 +676,44 @@
 
                 <div class="item active">
                   <div class="col-md-12 review__container">
-                     <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
-                        </div> 
-                        <div class="col-md-9">
+                     <div class="col-md-4 image_container"> 
+
+<div class="csslider infinity" id="slider1">
+  <input type="radio" name="slides" id="slides_1"/>
+  <input type="radio" name="slides" checked="checked" id="slides_2"/>
+  <input type="radio" name="slides" id="slides_3"/>  
+  <ul>
+    <li class="scrollable">
+      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
+    </li>
+    <li>
+      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
+    </li>
+    <li>
+      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
+    </li>
+  </ul>
+  <div class="arrows">
+    <label for="slides_1"></label>
+    <label for="slides_2"></label>
+    <label for="slides_3"></label>    
+    <label class="goto-first" for="slides_1"></label>
+    <label class="goto-last" for="slides_3"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_1"></label>
+      <label for="slides_2"></label>
+      <label for="slides_3"></label>      
+    </div>
+  </div>
+</div>
+             </div> 
+                        <div class="col-md-8">
                         <p class="reviewer__name">Руслан Рябополов</p>
                         <p class="review__short">«…Работой остался доволен…»
                         </p>
-                        <p class="review__long">В строительстве дачи я решил прибегнуть к помощи специалистов. Брат рассказал о фирме ГрадСтрой. Так как строительство дачи не было сил откладывать, прозвонил в фирму и договорился о сотрудничестве. Что сказать, строительство закончено в срок и работой я остался очень доволен! Теперь отношусь к строительным компаниям очень лояльно. Спасибо, ГрадСтрой!
- </p>
+                        <p class="review__long">В строительстве дачи я решил прибегнуть к помощи специалистов. Брат рассказал о фирме ГрадСтрой. Так как строительство дачи не было сил откладывать, прозвонил в фирму и договорился о сотрудничестве. Что сказать, строительство закончено в срок и работой я остался очень доволен! Теперь отношусь к строительным компаниям очень лояльно. Спасибо, ГрадСтрой!</p>
                       </div>
                   </div>
             
@@ -693,15 +721,46 @@
 
                 
                   <div class="col-md-12 review__container">
-                       <div class="col-md-9">
+                       <div class="col-md-8">
                         <p class="reviewer__name">Инга Мельник</p>
                         <p class="review__short">«…мы случайно попали на ГрадСтрой и остались довольны…»</p>
                         <p class="review__long">Мы с мужем недавно купили участок в Подмосковье. Времени на выбор строительной компании совсем не было. Мы случайно попали на ГрадСтрой и оказались довольны результатом проделанной работы. Строительство начали в начале июня, а новый год встречали уже в новом доме. Приятно удивил персонал, отношение к клиентам очень лояльное. Спасибо за сотрудничество! </p>
                      </div>
-                     <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                     <div class="col-md-4 image_container">
+
+                                          <div class="col-md-4 image_container"> 
+
+<div class="csslider infinity" id="slider12">
+  <input type="radio" name="slides" id="slides_12"/>
+  <input type="radio" name="slides" checked="checked" id="slides_22"/>
+  <input type="radio" name="slides" id="slides_32"/>  
+  <ul>
+    <li class="scrollable">
+      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
+    </li>
+    <li>
+      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
+    </li>
+    <li>
+      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
+    </li>
+  </ul>
+  <div class="arrows">
+    <label for="slides_12"></label>
+    <label for="slides_22"></label>
+    <label for="slides_32"></label>    
+    <label class="goto-first" for="slides_12"></label>
+    <label class="goto-last" for="slides_32"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_12"></label>
+      <label for="slides_22"></label>
+      <label for="slides_32"></label>      
+    </div>
+  </div>
+</div>                      
+</div>
                         </div>
                    </div>
                 </div>
@@ -710,9 +769,40 @@
                  <div class="item">
                   <div class="col-md-12 review__container">
                      <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                             
+<div class="csslider infinity" id="slider13">
+  <input type="radio" name="slides" id="slides_13"/>
+  <input type="radio" name="slides" checked="checked" id="slides_23"/>
+  <input type="radio" name="slides" id="slides_33"/>  
+  <ul>
+    <li class="scrollable">
+      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
+    </li>
+    <li>
+      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
+    </li>
+    <li>
+      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
+    </li>
+  </ul>
+  <div class="arrows">
+    <label for="slides_13"></label>
+    <label for="slides_23"></label>
+    <label for="slides_33"></label>    
+    <label class="goto-first" for="slides_13"></label>
+    <label class="goto-last" for="slides_33"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_13"></label>
+      <label for="slides_23"></label>
+      <label for="slides_33"></label>      
+    </div>
+  </div>
+</div>                      
+
+
+
                         </div>         
                     <div class="col-md-9">
                         <p class="reviewer__name">Степан Поддубный</p>
@@ -730,19 +820,80 @@
                    </div>
 
                      <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                             
+<div class="csslider infinity" id="slider14">
+  <input type="radio" name="slides" id="slides_14"/>
+  <input type="radio" name="slides" checked="checked" id="slides_24"/>
+  <input type="radio" name="slides" id="slides_34"/>  
+  <ul>
+    <li class="scrollable">
+      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
+    </li>
+    <li>
+      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
+    </li>
+    <li>
+      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
+    </li>
+  </ul>
+  <div class="arrows">
+    <label for="slides_14"></label>
+    <label for="slides_24"></label>
+    <label for="slides_34"></label>    
+    <label class="goto-first" for="slides_14"></label>
+    <label class="goto-last" for="slides_34"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_14"></label>
+      <label for="slides_24"></label>
+      <label for="slides_34"></label>      
+    </div>
+  </div>
+</div>
+
+
                         </div>
                    </div>
                 </div>
 
                 <div class="item">
                   <div class="col-md-12 review__container">
-                     <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                     <div class="col-md-3 image_container">
+
+                     <div class="csslider infinity" id="slider12">
+  <input type="radio" name="slides" id="slides_15"/>
+  <input type="radio" name="slides" checked="checked" id="slides_25"/>
+  <input type="radio" name="slides" id="slides_35"/>  
+  <ul>
+    <li class="scrollable">
+      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
+    </li>
+    <li>
+      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
+    </li>
+    <li>
+      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
+    </li>
+  </ul>
+  <div class="arrows">
+    <label for="slides_15"></label>
+    <label for="slides_25"></label>
+    <label for="slides_35"></label>    
+    <label class="goto-first" for="slides_15"></label>
+    <label class="goto-last" for="slides_35"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_15"></label>
+      <label for="slides_25"></label>
+      <label for="slides_35"></label>      
+    </div>
+  </div>
+</div>                      
+                 
+                             
+
                         </div>         
                         <div class="col-md-9">
                         <p class="reviewer__name">Михаил Сергиенко</p>
@@ -759,9 +910,39 @@
                    </div>
 
                      <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                            
+<div class="csslider infinity" id="slider16">
+  <input type="radio" name="slides" id="slides_16"/>
+  <input type="radio" name="slides" checked="checked" id="slides_26"/>
+  <input type="radio" name="slides" id="slides_36"/>  
+  <ul>
+    <li class="scrollable">
+      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
+    </li>
+    <li>
+      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
+    </li>
+    <li>
+      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
+    </li>
+  </ul>
+  <div class="arrows">
+    <label for="slides_16"></label>
+    <label for="slides_26"></label>
+    <label for="slides_36"></label>    
+    <label class="goto-first" for="slides_16"></label>
+    <label class="goto-last" for="slides_36"></label>
+  </div>
+  <div class="navigation"> 
+    <div>
+      <label for="slides_16"></label>
+      <label for="slides_26"></label>
+      <label for="slides_36"></label>      
+    </div>
+  </div>
+</div>                      
+</div>
+
                         </div>
                    </div>
                 </div>
@@ -892,13 +1073,13 @@
 <div class="modal fade modal_callback" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
       <div class="modal-body">
         <div class="titles">
           Заказ обратного звонка
         </div>
         <div class="form mt-20">
-      <form class="orders__form" action="call.php" method="POST">
+      <form class="orders__form modal_form" action="call.php" method="POST">
             <div>
             <i class="fa fa-user" aria-hidden="true"></i>
             <input class="orders__inputs"  placeholder="Имя" name="user_name" type="text" required="required"/>
