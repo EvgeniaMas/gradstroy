@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="184.338" height="184.74" viewBox="0 0 184.338 184.74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #212121;
+        stroke-width: 2.65px;
+        stroke-dasharray: 10.6 5.3;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="icon_round.svg" class="cls-1" d="M804.719,1158.9a91.05,91.05,0,1,1-90.831,91.05A90.944,90.944,0,0,1,804.719,1158.9Z" transform="translate(-712.55 -1157.585)"/>
+</svg>

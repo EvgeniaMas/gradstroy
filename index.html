@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" type="image/x-icon" href="logo.png" />
+<meta http-equiv="x-rim-auto-match" content="none">
+<meta name="description" content="Град Строй строительство домов из газобетона" />
+<meta name="keywords" content="строительство домов из газобетона, расчет, смета, заказать" />
+<title>Град Строй</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/quizz.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style>
+
+
+
+
+</style> 
+<!-- <link rel="stylesheet" type="text/css" href="css/slick.css"> -->
+<link rel="stylesheet" href="css/style.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link href="http://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css" />
+<link href="http://allfont.ru/allfont.css?fonts=roboto-bold" rel="stylesheet" type="text/css" />
+<link href="http://allfont.ru/allfont.css?fonts=pt-sans" rel="stylesheet" type="text/css" />
+<link href="http://allfont.ru/allfont.css?fonts=pt-sans-bold" rel="stylesheet" type="text/css" />  -->   
+</head>
+<body>
+<div class="wrapper"> 
+<header class="container-fluid" id ="header">
+<img class="white_element" src="img/white.png" alt="Белый круг"> 
+  <div class="green_block">
+   
+   <img class="header_house" src="img/main_house.png" alt="Дом из газобетона"> 
+
+  </div>
+   <div  class="col-md-12" id="header__navigation">
+    <div class="col-md-8 col-sm-8">
+      <a class="navbar-brand" href="#">Град Строй <br><span>Строительство домов <br> из газобетона</span></a>
+    <nav class="navbar navbar-default navbar-static-top navbar-right">      
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse scroll-nav" id="bs-example-navbar-collapse-1" >
+          <ul class="nav navbar-nav">
+            <li><a href="#select_house">Проекты домов</a></li>
+            <li><a href="#beton">Плюсы газобетона</a></li>
+            <li><a href="#reviews">Отзывы</a></li>            
+          </ul>          
+        </div><!-- /.navbar-collapse -->      
+      </nav>
+    </div>
+    <div class="col-md-2 col-sm-4 phone_container">
+
+    	     <a href="tel:+74953231243" class="header__phone">+7 (495) 323-12-43</a><br>
+
+            <a class="header__order callback_link" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать</a>
+             
+              <!--  <button class="header__order callback_link" data-target=".modal_callback" data-toggle="modal">Заказать</button>  -->         
+     </div>
+</div>
+<div class="container">
+  <div class="col-md-9">
+    <h1 class="header__activity">Узнайте стоимость строительства дома <br> 
+    из газобетона <span> «Под ключ»</span> <br>  ответив на 5 вопросов!</h1>
+    
+    <p class="header__questions">Ответьте на 5 вопросов и получите:</p>
+    <span class="result result1">Сметную стоимость дома</span> <span class="result">Бесплатный эскиз</span> <span class="result">Установку отопления в подарок</span><br>
+    <a href="#test" class="header__order callback">Узнать стоимость</a><br>
+    <p class="sum_notchanged">Итоговый расчет стоимости <span>не изменится</span> в процессе строительства!</p>
+    </div>
+ </div>
+</header>
+
+<!-- Блок с преимуществами  -->
+<div id="advantages" class="container-fluid"> 
+  <img class="green_element" src="img/green.png" alt="Зеленый круг">
+  <div class="container"> 
+    
+     <h2 class="advantages__title">Строительство <span>Градcтрой</span> это:</h2>
+     <div class="col-md-12 ">
+        <div class="row advantages_section">
+        <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons" name="graph" type="image/svg+xml" 
+          data="img/icon1.svg"></object>   
+          <p class="advantages__text">Выгодно</p> 
+           <p class="advantages__description">Фиксированная стоимость
+            строительства</p>      
+         </div>
+
+         <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons" name="graph" type="image/svg+xml" 
+          data="img/icon2.svg"></object>   
+          <p class="advantages__text">В срок</p> 
+           <p class="advantages__description">Сроки строительства всегда
+            соблюдаются на 100%</p>      
+         </div>
+
+         <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons" name="graph" type="image/svg+xml" 
+          data="img/icon3.svg"></object>   
+          <p class="advantages__text">Экономично</p> 
+           <p class="advantages__description">Стоимость работ на 10-15%
+            ниже рыночной</p>      
+         </div>
+
+         <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons" name="graph" type="image/svg+xml" 
+          data="img/icon4.svg"></object>   
+          <p class="advantages__text">Доступно</p> 
+           <p class="advantages__description">Оплата строительства
+            разделена на 3 этапа</p>      
+         </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </div> 
+    
+<div id="process" class="container-fluid"> 
+  <div class="container">    
+     <h2 class="process__title"><span>Строительство</span> домов из газобетона</h2>        
+       <p class="process__text">Строительство дома - это всегда очень волнительный момент. В первую очередь важно найти компанию, в которой вы будете уверены на 100%, что не будет никаких подводных камней, что
+      ваше жилище будет построено действительно качественно и при этом стоимость, которую вам называли при проэктировании совпала с итоговой суммой проекта.<br>
+       Поскольку вы сейчас находитесь на нашем сайте, мы с гордостью можем заявить, что ваши поиски закончились!</p>
+    </div>
+  <img class="process_image" src="img/grey_houses.png" alt="Силуэты домов">
+</div>   
+
+
+<div id="select_house" class="container-fluid"> 
+  <div class="container select__container"> 
+    
+     <h2 class="select_house__title">Какой дом вам нужен?</h2>
+        <div class="row">
+        <div  class="col-md-4 col-sm-4">
+          <div class="select_house__block">
+            <img class="select_house__image" src="img/house1.jpg">
+            <span class="select_house__text"><span>Дом</span> до 100 м<sup>2</sup></span>
+            <span class="select_house__icon"><img src="img/house1_icon.png"></span>
+            <p class="select_house__description">Строительство такого дома займет всего лишь месяц - то есть уже через 30 дней Вы пригласите
+            друзей отметить новоселье!</p>
+           <a class="select_house__button" href="#test" target="_blank">
+            <img class="select_house__button_icon" src="img/arrow.png">Рассчитать стоимость
+           </a>
+          </div>
+         </div>
+
+          <div  class="col-md-4 col-sm-4">
+          <div class="select_house__block">
+            <img class="select_house__image" src="img/house2.jpg">
+            <span class="select_house__text"><span>Дом</span> до 170 м<sup>2</sup></span>
+            <span class="select_house__icon"><img src="img/house2_icon.png"></span>
+            <p class="select_house__description">Дома из газобетона теплые и
+             просторные, в таком Вашей семье будет комфортно и уютно жить круглый год!</p>
+           <a class="select_house__button" href="#test" target="_blank">
+            <img class="select_house__button_icon" src="img/arrow.png">Рассчитать стоимость
+           </a>
+          </div>
+        </div>
+
+          <div  class="col-md-4 col-sm-4">
+          <div class="select_house__block">
+            <img class="select_house__image" src="img/house3.jpg">
+            <span class="select_house__text"><span>Дом</span> до 235 м<sup>2</sup></span>
+            <span class="select_house__icon"><img src="img/house3_icon.png"></span>
+            <p class="select_house__description">Постройте себе настоящий замок - с башенками, балкончиками и эркерами. Именно такой, о котором
+            Вы мечтали в детстве!</p>
+           <a class="select_house__button" href="#test" target="_blank">
+            <img class="select_house__button_icon" src="img/arrow.png">Рассчитать стоимость
+           </a>
+          </div>
+            </div>              
+        </div>
+       </div>
+</div> 
+
+
+
+<div id="beton" class="container-fluid"> 
+
+  <div class="container"> 
+    <div class="white_bgtext">Газобетон</div>
+    <p class="beton__title">Почему при постройке дома<br> газобетон <span>выгоднее</span> других материалов?</p>
+    <p class="beton__titleextra">Обращаем внимание что газобетон и пенобетон абсолютно разные материалы по своим характеристикам!</p>
+    <div class="col-md-12">
+      <div class="col-md-2">
+      <p class="vertical_text">Качество</p>
+      </div>
+
+      <div class="col-md-9">
+        <div class="col-md-12">
+      <div class="col-md-6">
+        <img class="beton__image" src="img/brick.png" alt="Газобетон">
+      </div>
+      <div class="col-md-6">
+        <p class="beton__description_title"><span>Газобетон</span> и пенобетон</p>
+        <p class="beton__description">
+        Блоки из газобетона прочнее пенобетона, Они
+        не крошатся, проще и дешевле в отделке,
+        У газобетона минимальная погрешность- 2 мм, 
+        что повышает скорость укладки. Газобетонные
+        блоки укладывают на спецклей со швом
+        1-2 мм, пенобетонные - на раствор (шов до 15 мм).
+        клей стоит в 2 раза дороже раствора, 
+        но его расхож - в 5-6 раз ниже,
+        3-кратная экономия! <br>
+        <span>Газобетон:</span> стоимость отделки 
+        дома - 300 000 руб.<br>
+        <span class="red_text"> Пенобетон:</span> стоимость отделки 
+        дома - 450 000 руб.</p>
+      </div>
+    </div>
+
+
+     <div class="col-md-12">
+      
+      <div class="col-md-6">
+        <p class="beton__description_title"><span>Газобетон</span> и кирпич</p>
+        <p class="beton__description">
+        Легкие газобетонные блоки не требуют
+        возведения массивного фундамента.
+        Дом из газобетона возводится в 1.5
+        раза быстрее кирпичного. Газобетон
+        хорошо пропускает воздух, у него
+        низкая теплопроводность. То есть 
+        наружные стены можно делать тонкими,
+        что увеличивает полезную площадь дома
+         на 10-15%. <br>
+        <span>Газобетон:</span> стоимость 1 кв.м - от 7 820 руб.<br>
+        <span class="red_text"> Кирпич:</span> стоимость 1 кв.м от 19 160 руб.</p>
+      </div>
+      <div class="col-md-6">
+        <img class="beton__image" src="img/brick1.png" alt="Газобетон">
+      </div>
+
+
+    </div>
+
+
+     <div class="col-md-12">
+      <div class="col-md-6">
+        <img class="beton__image" src="img/brick2.png" alt="Газобетон">
+      </div>
+      <div class="col-md-6">
+        <p class="beton__description_title"><span>Газобетон</span> и дерево</p>
+        <p class="beton__description">
+        Газобетон пожароустойчив. 
+          Газобетонные блоки способны
+          выдержать до 7 часов прямого огня.
+          Газобетон не гниет, в нём не заводятся
+          грибки. Даже очень большие дома из
+          газобетона возводятся за 3 месяца, а
+          отделка деревянных может затянуться
+          не на один сезон из за усадки.
+          Газобетонные блоки долгой усадки
+          не требует.<br>
+        <span>Газобетон:</span> годовое обслуживание
+         дома - 10 000 руб.<br>
+        <span class="red_text"> Дерево:</span> годовое обслуживание
+        дома - 45 000 руб.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="clearfix"></div> 
+<!-- 
+ </div>Разобраться!!!!  -->
+
+
+    <div class="present">
+
+      <div class="present__body">
+        <img class="present__bg" src="img/present_bg.png" alt="Фон">
+        <p class="present__title">Получите <span>проект</span> Вашего дома в подарок<br> При заказе строительства до конца месяца</p>
+        <div class="col-md-12 present__sections">
+          <div class="col-md-4">
+            <img class="present__image" src="img/present.png" alt="Дом">
+          </div>
+          <div class="col-md-4">
+            <button class="present__button">Получить</button>
+          </div>
+          <div class="col-md-4">
+            <p class="present__price">стоимость проекта</p>
+        <span class="old-price">67 000 </span><span class="roubles">руб.</span><br>       
+        <img class="present__tag" src="img/present_tab.png" alt="Подарок">
+          </div>
+</div>
+        </div>
+        
+        
+        
+
+      </div>
+
+    </div>
+   </div>
+</div>
+
+
+
+
+
+
+<div class="clearfix"></div> 
+
+
+<section id="test" class="container-fluid">
+<div class="container"> 
+  
+  <img class="test__bg2" src="img/test_sbg.png" alt="Расчет"> 
+   <div class="test__area">
+     
+    
+
+
+  <form id="msform" action="mail.php" method="POST" enctype="multipart/form-data">
+  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br> за 1 минуту и получите отопление в <span>подарок!</span></h2>    
+    <fieldset  class="double_section question   tests__questions">
+      <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test_11.jpg" alt="Одноэтажный дом">
+              <div class="checkbox">
+              <input id="check1" type="radio" name="check" value="1 этаж">
+               <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test12.jpg" alt="Одноэтажный дом">
+              <div class="checkbox">
+              <input id="check2" type="radio" name="check" value="2 этажа">
+               <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test13.jpg" alt="Одноэтажный дом">
+              <div class="checkbox">
+              <input id="check3" type="radio" name="check" value="3 и более">
+               <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test14.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check4" type="radio" name="check" value="с мансардой">
+               <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+        
+
+
+
+       </div> <!-- 12 колонок -->
+      </div> <!-- ряд -->            
+    </fieldset>
+    <fieldset>        
+                 <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test_11.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check1" type="radio" name="check" value="1 этаж">
+               <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test12.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check2" type="radio" name="check" value="2 этажа">
+               <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test13.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check3" type="radio" name="check" value="3 и более">
+               <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/test14.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check4" type="radio" name="check" value="с мансардой">
+               <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+        
+
+
+
+       </div> <!-- 12 колонок -->
+      </div> <!-- ряд --> 
+       
+    </fieldset>
+    <fieldset>        
+                <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check1" type="radio" name="check" value="1 этаж">
+               <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check2" type="radio" name="check" value="2 этажа">
+               <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check3" type="radio" name="check" value="3 и более">
+               <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_block">
+              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
+
+              <div class="checkbox">
+              <input id="check4" type="radio" name="check" value="с мансардой">
+               <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+        
+
+
+
+       </div> <!-- 12 колонок -->
+      </div> <!-- ряд -->    
+        
+    </fieldset>
+    <fieldset class="user_info">
+       <!-- <h3 class="fs-title">Заполните контактную информацию</h3> -->
+       <div id="user_block">
+        <input class="compulsory  compulsory1" type="text" name="user_surname" placeholder="Фамилия" required="required"/>
+        <input class="compulsory compulsory1" type="text" name="user_name" placeholder="Имя" required="required"/>
+        <input class="compulsory compulsory1" type="text" name="user_patronymic" placeholder="Отчество" required="required"/>
+    </div>
+    <div class="contacts">
+        <input class="compulsory compulsory2" type="tel" name="user_phone" placeholder="Телефон" required="required"/>
+        <input class="compulsory compulsory2" type="email" name="user_email" placeholder="E-mail" required="required"/> 
+    </div>
+    
+    </fieldset>
+    <div class="button_block">
+
+     <a class="next action-button"> Далее</a> 
+     <button id="send" type="submit" class="action-button"> Отправить</button> 
+     <a id="previous" class=" action-button">Назад</a>
+
+   </div>
+
+</form> 
+
+
+</div> 
+</div>
+</section>
+
+
+
+
+
+<div id="company" class="container-fluid"> 
+  <div class="container">    
+     <h2 class="company__title">Почему вы обязательно выберите нас?</h2>
+     <h3 class="company__greentext">Мы знаем своё дело!</h3>
+     <p class="company__description">Сегодня строительство стало популярным видом бизнеса и к сожалею многие организации открываются только с базовым предствлением о даной отрасли и строительстве в целом. <br> Мы же можем похвастатся тем, что все наши сотрудники имеют стаж 10 лет! <br>Мы специализируемся на строительстве домов именно из газобетона и знаем его как никто лучше! <br>Обращаясь к нам, вы будете уверены, что фундамент вашего жилища, как и весь дом в целом будет сделан на высшем уровне!</p>
+     <div class="col-md-12">
+        <div class="row advantages_section">
+        <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons icon2" name="graph" type="image/svg+xml" 
+          data="img/icon5.svg"></object>   
+          
+           <p class="advantages__description">Поможем с выбором
+             из 4600 проектов домов</p>      
+         </div>
+         <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons icon2" name="graph" type="image/svg+xml" 
+          data="img/icon6.svg" ></object>          
+           <p class="advantages__description">Только итоговая
+           стоимость в смете</p>      
+         </div>
+         <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons icon2" name="graph" type="image/svg+xml" 
+          data="img/icon7.svg" ></object>         
+           <p class="advantages__description">Фотоотчет на всех этапах
+           строительства</p>      
+         </div>
+         <div  class="col-md-3 col-sm-6"> 
+          <object class="svg_icons icon2" name="graph" type="image/svg+xml" 
+          data="img/icon8.svg" ></object>         
+           <p class="advantages__description">Гарантия на построенный
+            дом под ключ - 5 лет</p>      
+         </div>          
+        </div>
+      </div>
+      <button class="header__order callback" data-target=".modal_callback" data-toggle="modal">Узнать подробнее</button>
+    </div>
+  </div> 
+
+      
+      
+
+
+
+
+<div id="examples" class="container-fluid">
+   <h2 class="examples__title">Как мы <span>работаем</span></h2>   
+   <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- SLIDES -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="examples_slides" alt="Примеры работ" src="img/slider_text.png">
+                <div class="example__text">
+                 <p class="example__title">Ход работы</p>
+                 <p class="example__description">Мы ценим только качество и поэтому все наши проекты идут строго по плану,который мы предоставляем до начала строительства. <br>
+                 Основные этапы строительства:<br>
+                - Подбор проектов<br>
+                - Составление сметы<br>
+                - Закупка материалов<br>
+                - Строительство дома<br>
+                - Сдача проекта</p>
+              </div>
+                   
+                </div>
+
+                <div class="item">
+                  <img class="examples_slides" alt="Примеры работ" src="img/slider_text.png">
+                  <div class="example__text">
+                   <p class="example__title">Ход работы</p>
+                   <p class="example__description">Мы ценим только качество и поэтому все наши проекты идут строго по плану,который мы предоставляем до начала строительства. <br>
+                   Основные этапы строительства:<br>
+                   - Подбор проектов<br>
+                   - Составление сметы<br>
+                   - Закупка материалов<br>
+                   - Строительство дома<br>
+                   - Сдача проекта</p>
+              </div>
+                </div>
+
+                <div class="item">
+                 <img class="examples_slides" alt="Примеры работ" src="img/slider_text.png">
+                  <div class="example__text">
+                 <p class="example__title">Ход работы</p>
+                 <p class="example__description">Мы ценим только качество и поэтому все наши проекты идут строго по плану,который мы предоставляем до начала строительства. <br>
+                 Основные этапы строительства:<br>
+                - Подбор проектов<br>
+                - Составление сметы<br>
+                - Закупка материалов<br>
+                - Строительство дома<br>
+                - Сдача проекта</p>
+              </div>
+            </div>                             
+          </div>
+
+              <!-- LEFT-RIGHT -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+               <!--  <span class="glyphicon"> -->
+                  <img class="arrows arrow_left" src="img/arrow-left.png" alt="previous">
+              <!--   </span> -->
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <!-- <span class="glyphicon"> -->
+                  <img class="arrows arrow_right" src="img/arrow-right.png" alt="next">
+              <!--   </span> -->
+              </a>
+
+                            
+            </div>
+          </div>
+        </div>
+
+    </div>
+      
+
+
+
+
+
+<div class="clearfix"></div>
+
+
+
+<div id="reviews" class="container" >
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carousel-example-generic2" class="carousel slide" data-ride="carouse2">
+              <!-- SLIDES -->
+              <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                  <div class="col-md-12 review__container">
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div> 
+                        <div class="col-md-9">
+                        <p class="reviewer__name">Руслан Рябополов</p>
+                        <p class="review__short">«…Работой остался доволен…»
+                        </p>
+                        <p class="review__long">В строительстве дачи я решил прибегнуть к помощи специалистов. Брат рассказал о фирме ГрадСтрой. Так как строительство дачи не было сил откладывать, прозвонил в фирму и договорился о сотрудничестве. Что сказать, строительство закончено в срок и работой я остался очень доволен! Теперь отношусь к строительным компаниям очень лояльно. Спасибо, ГрадСтрой!
+ </p>
+                      </div>
+                  </div>
+            
+
+
+                
+                  <div class="col-md-12 review__container">
+                       <div class="col-md-9">
+                        <p class="reviewer__name">Инга Мельник</p>
+                        <p class="review__short">«…мы случайно попали на ГрадСтрой и остались довольны…»</p>
+                        <p class="review__long">Мы с мужем недавно купили участок в Подмосковье. Времени на выбор строительной компании совсем не было. Мы случайно попали на ГрадСтрой и оказались довольны результатом проделанной работы. Строительство начали в начале июня, а новый год встречали уже в новом доме. Приятно удивил персонал, отношение к клиентам очень лояльное. Спасибо за сотрудничество! </p>
+                     </div>
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>
+                   </div>
+                </div>
+
+
+                 <div class="item">
+                  <div class="col-md-12 review__container">
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>         
+                    <div class="col-md-9">
+                        <p class="reviewer__name">Степан Поддубный</p>
+                        <p class="review__short">«…я боялся высоких цен…»</p>
+                        <p class="review__long">Строительство дома – дело нехитрое и сложное. Больше всего я боялся высоких цен. Страшно становится уже при входе в строительный магазин, не говоря уже о масштабном строительстве. Обратился в ГрадСтрой, мне предоставили примерный ценник, я согласился, но морально был готов к тому, что он будет раза в два выше по итогу работы. Однако в смету уложились, чему я очень рад! Ребята оказались профессионалами, дом построен на совесть, спасибо вам большое! </p>
+                   </div>
+               </div>
+             
+               
+                  <div class="col-md-12 review__container">
+                  <div class="col-md-9">
+                        <p class="reviewer__name">Кирилл Савченко</p>
+                        <p class="review__short">«…даже теща осталась довольна…»</p>
+                        <p class="review__long">Строительство дачи у нас затянулось. Изначально хотели строить дом своими силами, но когда поняли, что нам не потянуть, обратились в вашу фирму. Жена боялась высоких цен, а я – работников, которые будут халтурить и увиливать от работы. Но ваша компания показала высший класс! Рабочие ответственные, понимают, что и как нужно делать. Дом построен вовремя и даже теща осталась довольна! </p>
+                   </div>
+
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>
+                   </div>
+                </div>
+
+                <div class="item">
+                  <div class="col-md-12 review__container">
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>         
+                        <div class="col-md-9">
+                        <p class="reviewer__name">Михаил Сергиенко</p>
+                        <p class="review__short">«…в бюджет вписались, жена довольна…»</p>
+                        <p class="review__long">Решил оставить отзыв о своем опыте обращения в фирму ГрадСтрой. Обратился я по совету своего друга, которому построили отличный загородный дом. Я же покупал участок под дом для жительства на постоянной основе. Понравилось то, что ребята учли все мои пожелания. Дом построили за 7 месяцев, при том, что я постоянно вносил свои корректировки. Хотелось два этажа и 6 комнат, просторную кухню. По итогу, в бюджет вписались, вся семья из пяти человек поместилась. Жена очень довольна, дом теплый и уютный. ГрадСтрой, вы мастера своего дела! </p>
+               </div>
+             </div>
+                  <div class="col-md-12 review__container">
+
+                   <div class="col-md-9">
+                        <p class="reviewer__name">Мария Бажаненко</p>
+                        <p class="review__short">«…я влюбилась в этот дом…»</p>
+                        <p class="review__long">Я обратилась в вашу фирму не случайно. Долгое время искала достойную строительную фирму и, ориентируясь по отзывам клиентов, попала в ГрадСтрой. Дом нужен был моим родителям. Основным запросом был маленький теплый и уютный домик. Четыре с половиной месяца понадобилось, чтобы осуществить мечту мамы и папы. Я влюбилась в новый дом с первого взгляда – все именно так, как было задумано по проекту. Дом радует родителей, спасибо фирме!</p>
+                   </div>
+
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>
+                   </div>
+                </div>
+                  
+
+
+                  <!-- <div class="item">
+                  <div class="col-md-12 review__container">
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>        
+                      <div class="col-md-9">
+                        <p class="reviewer__name">Михаил Недоскоков:</p>
+                        <p class="review__short">“Расписали все расходы с точностью до рубля”</p>
+                        <p class="review__long">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos </p>                 
+               </div>
+             </div>                
+                  <div class="col-md-12 review__container">
+                  <div class="col-md-9">
+                        <p class="reviewer__name">Михаил Недоскоков:</p>
+                        <p class="review__short">“Расписали все расходы с точностью до рубля”</p>
+                        <p class="review__long">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos </p>
+                   </div>
+
+                     <div class="col-md-3 image_container">                  
+                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
+                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
+                        </div>
+                   </div> -->
+              </div>
+            </div>
+
+              
+              <!-- THUMBNAILS -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active">
+                  
+                </li>
+                <li data-target="#carousel-example-generic2" data-slide-to="1">
+                  
+                </li>
+                <li data-target="#carousel-example-generic2" data-slide-to="2">
+                
+                </li>
+                <!-- <li data-target="#carousel-example-generic2" data-slide-to="3">
+                  
+                </li>     -->            
+              </ol>
+
+            
+            </div>
+          </div>
+        </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="clearfix"></div>
+
+      
+
+
+
+</div>
+</div><!-- Разобраться с закрытием секций!!!!!!!!!!!! -->
+
+<div class="container-fluid section_paddings" id="orders">    
+   <div class="container">   
+      <p class="orders__question">Остались <span>вопросы</span>?<br>
+         Заполните форму ниже и наш менеджер перезвонит вам через 2 минуты </p>
+           <form class="orders__form" action="call.php" method="POST">
+            <div>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input class="orders__inputs"  placeholder="Имя" name="user_name" type="text" required="required"/>
+            </div>             
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
+          <div class="formname">
+             <input id="checkbox" type="checkbox" name="checkbox" checked onchange="document.getElementById('submit').disabled = !this.checked;" />
+             <label for="checkbox">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit" value="Позвоните мне" />
+           </div>             
+         </form> 
+  </div>
+</div>
+<footer class="container-fluid footer">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-4 col-sm-12 col-xs-12">             
+              <p class="footer__logo">Град Строй</span><br>
+               <span class="footer__activity">Строительство домов <br> из газобетона</span></p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <a class="footer__privacy" href="policy.html" target="a_blank">Политика конфиденциальности</a><br>
+              <a class="footer__link" href="http://xn-----mlccidcdkky6cig2k.xn--p1ai/" target="_blank">Клиенты из сети</a>              
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12"> 
+              <a href="tel:+74953231243" class="footer__phone">+7 (495) 323-12-43</a><br>                 
+                 <a class="footer__callback" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать звонок</a>
+            </div>
+          </div>          
+        </div>
+      </div>   
+</footer>
+
+</div>
+<!-- callback -->
+<div class="modal fade modal_callback" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="titles">
+          Заказ обратного звонка
+        </div>
+        <div class="form mt-20">
+      <form class="orders__form" action="call.php" method="POST">
+            <div>
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input class="orders__inputs"  placeholder="Имя" name="user_name" type="text" required="required"/>
+            </div>             
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
+          <div class="formname">
+             <input id="checkbox_m" type="checkbox" name="checkbox_m" checked onchange="document.getElementById('submit_m').disabled = !this.checked;" />
+             <label for="checkbox_m">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_m" value="Позвоните мне" />
+           </div>             
+         </form> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/scrollspy.min.js"></script>
+<script src="js/script.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script>
+
+$(function(){ 
+  $(".orders__inputs.phone").mask("+7(999) 999-99-99");
+});
+</script>
+<script src="js/jquery.fancybox.js"></script>
+
+
+<script>
+ 
+function theRotator() {
+  // Устанавливаем прозрачность всех картинок в 0
+  $('div#rotator ul li').css({opacity: 0.0});
+ 
+  // Берем первую картинку и показываем ее (по пути включаем полную видимость)
+  $('div#rotator ul li:first').css({opacity: 1.0});
+ 
+  // Вызываем функцию rotate для запуска слайдшоу, 5000 = смена картинок происходит раз в 5 секунд
+  setInterval('rotate()',3000);
+}
+ 
+function rotate() { 
+  // Берем первую картинку
+  var current = ($('div#rotator ul li.show')?  $('div#rotator ul li.show') : $('div#rotator ul li:first'));
+ 
+  // Берем следующую картинку, когда дойдем до последней начинаем с начала
+  var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') :current.next()) : $('div#rotator ul li:first')); 
+ 
+  // Расскомментируйте, чтобы показвать картинки в случайном порядке
+  // var sibs = current.siblings();
+  // var rndNum = Math.floor(Math.random() * sibs.length );
+  // var next = $( sibs[ rndNum ] );
+ 
+  // Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
+  next.css({opacity: 0.0})
+  .addClass('show')
+  .animate({opacity: 1.0}, 1000);
+ 
+  // Прячем текущую картинку
+  current.animate({opacity: 0.0}, 1000)
+  .removeClass('show');
+};
+ 
+$(document).ready(function() {    
+  // Запускаем слайдшоу
+  theRotator();
+});
+ 
+</script>
+
+
+
+</body>
+</html>
