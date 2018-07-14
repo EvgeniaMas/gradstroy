@@ -64,6 +64,7 @@
   display: inline-block;
   width: 100%;
   height: 100%;
+  max-height: 246px;
   overflow: hidden;
   font-size: 15px;
   font-size: initial;
@@ -350,11 +351,12 @@ h2 {
   line-height: 140%;
   font-size: 120%;
 }
-#center {
+.centers {
   text-align: center;
   margin-top: 25%;
+  margin:auto;
 }
-#center a {
+.centers a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;

@@ -14,7 +14,7 @@ current_fs.hide('slow');
 previous_fs.fadeIn(1000);
 current_fs = previous_fs;
 count--;
-if (count<4){ 
+if (count<5){ 
 $('#send').hide('slow'); 
 $('.next').fadeIn(1000);      
 }
@@ -42,7 +42,7 @@ $('#previous').css('display', 'inline-block');
 $('#previous').fadeIn(1000); 
 
 }    
-if (count>3){ 
+if (count>4){ 
 $('.next').hide('slow');
 
 $('#send').fadeIn(1000); 

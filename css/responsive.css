@@ -1,0 +1,293 @@
+@media (max-width: 1600px) {
+
+.vertical_text {
+opacity: 0.2;
+
+}
+
+
+}
+@media (max-width: 1023px) {
+
+
+}
+
+
+@media only screen and ( max-width: 991px) {
+.sum_notchanged {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: left;
+    width: 70%;
+}
+
+.green_block {
+        height: auto;
+        height: 100%;
+}
+
+
+
+
+img.arrows {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    background-color: rgba(52,107,5, 0.7);
+    opacity: 1;
+}
+img.arrows.arrow_right {
+right: -20px;
+}
+
+img.arrows.arrow_left {
+left: -20px;
+}
+
+
+
+.header_house,
+#examples,
+.present__bg
+ {
+display: none;
+}
+
+.test__bg2 {
+	opacity: 0;
+}
+
+#examples_m{
+	display: block;
+}
+.present__title
+ {
+    
+    position: relative;
+    
+}
+
+.svg_icons {
+max-width: 150px;
+max-height: 150px;
+}
+
+
+.present__price {
+    font-size: 18px;
+    margin-top: 20px;  
+    font-family: "Proxima Nova Bold"; 
+   
+}
+
+
+
+
+
+.present__tag {
+margin-top: -20px;
+position: relative;
+z-index: 3;
+max-width: 170px;
+
+}
+
+.present__button {
+margin-top: 20px;
+
+}
+.present__image{
+display: block;
+margin:auto;
+max-height: 250px;
+}
+.advantages__title,
+h2.process__title {
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+
+.present__sections {
+    position: relative;
+    
+    min-height: auto;
+}
+
+.present__title {
+    font-size: 27px;
+    
+    line-height: 30px;
+}
+.prices {
+	width: 80%;
+	margin:auto;
+}
+
+
+.vertical_text {
+	opacity: 0.2;
+}
+
+.beton__mobile2 {
+	display: block;
+}
+
+.beton__mobile1 {
+	display: none;
+}
+
+.orders__question {
+	margin-top: 20px;
+}
+
+
+.phone_container  {
+position: relative;
+width: 100%;
+}
+.header__phone {
+color: rgb(85, 85, 85);
+    text-align: right;
+
+
+}
+.callback_link {
+    color: rgb(85, 85, 85);
+    float: right;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+
+.header__phone:hover,
+.callback_link:hover{
+	 color: rgb(85, 85, 85);
+}
+
+
+
+.breaks {
+	display: none;
+}
+
+.header__activity {
+	text-align: center;
+	font-size: 28px;
+	line-height: 30px;
+	margin-top: 23%;
+}
+.header__activity span {
+	color: rgb(85, 85, 85);
+
+}
+
+#header {
+    
+    height: auto;
+    min-height: 800px;
+    padding-bottom: 20px;
+   
+}
+span.result1 {
+    margin-left: 0;
+}
+.result {
+    font-size: 18px;
+   
+    color: rgb( 102, 172, 42 );
+    text-align: left;
+    display: block;
+    padding-right: 0;
+}
+
+.review__container {
+
+    padding-bottom: 22px;
+    
+    
+   
+}
+.process__text {
+    font-size: 20px;
+    font-family: "Proxima Nova Regular";
+    color: rgb(81, 79, 82);
+    width: 90%;
+    line-height: 28px;
+    text-align: justify;
+    margin: auto;
+}
+}
+
+
+
+@media (min-width: 767px) and  (max-width: 1200px)  {
+
+}
+@media (min-width: 500px) and  (max-width: 767px)  {
+
+}
+@media (max-width: 767px) {
+.orders__form {
+    margin-top: 30px;
+}
+
+.old-price, .roubles {
+    font-size: 28px;
+}
+
+
+.header__questions {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.footer__callback {
+    
+
+    margin:auto;
+    
+    margin-top: 20px;
+
+}
+.footer__phone,
+.footer__privacy, .footer__link {
+    display: block;
+    text-align: center;
+}
+.breaks2 {
+	display: none;
+}
+
+.count, .questions {
+   
+    line-height: 25px;
+    
+}
+.count {
+
+ padding-top: 10px;
+}
+
+}
+@media only screen and ( max-width: 500px) {
+.svg_icons {
+max-width: 120px;
+max-height: 120px;
+}
+.prices {
+	width: 100%;
+	margin:auto;
+}
+
+
+}
+@media only screen and ( max-width: 350px) {
+
+}
+}

@@ -12,10 +12,8 @@
 <title>Град Строй</title>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/quizz.css">
-<link rel="stylesheet" href="css/jquery.fancybox.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/css_slider.css">
+<!-- <link rel="stylesheet" href="css/quizz.css"> -->
+
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -30,25 +28,22 @@
 </style> 
 <!-- <link rel="stylesheet" type="text/css" href="css/slick.css"> -->
 <link rel="stylesheet" href="css/style.min.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-<link href="http://allfont.ru/allfont.css?fonts=roboto-regular" rel="stylesheet" type="text/css" />
-<link href="http://allfont.ru/allfont.css?fonts=roboto-bold" rel="stylesheet" type="text/css" />
-<link href="http://allfont.ru/allfont.css?fonts=pt-sans" rel="stylesheet" type="text/css" />
-<link href="http://allfont.ru/allfont.css?fonts=pt-sans-bold" rel="stylesheet" type="text/css" />  -->   
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/css_slider.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
 <div class="wrapper"> 
 <header class="container-fluid" id ="header">
 <img class="white_element" src="img/white.png" alt="Белый круг"> 
-  <div class="green_block">
-   
-   <img class="header_house" src="img/main_house.png" alt="Дом из газобетона"> 
-
+  <div class="green_block">   
+   <img class="header_house" src="img/main_house.png" alt="Дом из газобетона">
   </div>
    <div  class="col-md-12" id="header__navigation">
     <div class="col-md-8 col-sm-8">
       <a class="navbar-brand" href="#">Град Строй <br><span>Строительство домов <br> из газобетона</span></a>
-    <nav class="navbar navbar-default navbar-static-top navbar-right">      
+    <nav class="navbar navbar-default navbar-static-top navbar-right">     
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -71,17 +66,15 @@
     </div>
     <div class="col-md-2 col-sm-4 phone_container">
 
-    	     <a href="tel:+74953231243" class="header__phone">+7 (495) 323-12-43</a><br>
+    	     <a href="tel:+74953231243" class="header__phone">+7 (495) 323-12-43</a>
 
-            <a class="header__order callback_link" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать</a>
-             
-              <!--  <button class="header__order callback_link" data-target=".modal_callback" data-toggle="modal">Заказать</button>  -->         
+            <a class="header__order callback_link" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать</a>                    
      </div>
 </div>
 <div class="container">
   <div class="col-md-9">
-    <h1 class="header__activity">Узнайте стоимость строительства дома <br> 
-    из газобетона <span> «Под ключ»</span> <br>  ответив на 5 вопросов!</h1>
+    <h1 class="header__activity">Узнайте стоимость строительства дома <br class="breaks"> 
+    из газобетона <span> «Под ключ»</span> <br class="breaks">  ответив на 5 вопросов!</h1>
     
     <p class="header__questions">Ответьте на 5 вопросов и получите:</p>
     <span class="result result1">Сметную стоимость дома</span> <span class="result">Бесплатный эскиз</span> <span class="result">Установку отопления в подарок</span><br>
@@ -129,31 +122,26 @@
           <p class="advantages__text">Доступно</p> 
            <p class="advantages__description">Оплата строительства
             разделена на 3 этапа</p>      
-         </div>
-
-          
+         </div>          
         </div>
       </div>
     </div>
-  </div> 
-    
+  </div>
 <div id="process" class="container-fluid"> 
   <div class="container">    
      <h2 class="process__title"><span>Строительство</span> домов из газобетона</h2>        
        <p class="process__text">Строительство дома - это всегда очень волнительный момент. В первую очередь важно найти компанию, в которой вы будете уверены на 100%, что не будет никаких подводных камней, что
-      ваше жилище будет построено действительно качественно и при этом стоимость, которую вам называли при проэктировании совпала с итоговой суммой проекта.<br>
+      ваше жилище будет построено действительно качественно и при этом стоимость, которую вам называли при проектировании совпала с итоговой суммой проекта.<br>
        Поскольку вы сейчас находитесь на нашем сайте, мы с гордостью можем заявить, что ваши поиски закончились!</p>
     </div>
   <img class="process_image" src="img/grey_houses.png" alt="Силуэты домов">
-</div>   
-
-
+</div>
 <div id="select_house" class="container-fluid"> 
   <div class="container select__container"> 
     
      <h2 class="select_house__title">Какой дом вам нужен?</h2>
         <div class="row">
-        <div  class="col-md-4 col-sm-4">
+        <div  class="col-md-4 col-sm-12">
           <div class="select_house__block">
             <img class="select_house__image" src="img/house1.jpg">
             <span class="select_house__text"><span>Дом</span> до 100 м<sup>2</sup></span>
@@ -165,8 +153,7 @@
            </a>
           </div>
          </div>
-
-          <div  class="col-md-4 col-sm-4">
+          <div  class="col-md-4 col-sm-12">
           <div class="select_house__block">
             <img class="select_house__image" src="img/house2.jpg">
             <span class="select_house__text"><span>Дом</span> до 170 м<sup>2</sup></span>
@@ -178,8 +165,7 @@
            </a>
           </div>
         </div>
-
-          <div  class="col-md-4 col-sm-4">
+          <div  class="col-md-4 col-sm-12">
           <div class="select_house__block">
             <img class="select_house__image" src="img/house3.jpg">
             <span class="select_house__text"><span>Дом</span> до 235 м<sup>2</sup></span>
@@ -194,11 +180,7 @@
         </div>
        </div>
 </div> 
-
-
-
-<div id="beton" class="container-fluid"> 
-
+<div id="beton" class="container-fluid">
   <div class="container"> 
     <div class="white_bgtext">Газобетон</div>
     <p class="beton__title">Почему при постройке дома<br> газобетон <span>выгоднее</span> других материалов?</p>
@@ -207,8 +189,7 @@
       <div class="col-md-2">
       <p class="vertical_text">Качество</p>
       </div>
-
-      <div class="col-md-9">
+      <div class="col-md-9 ">
         <div class="col-md-12">
       <div class="col-md-6">
         <img class="beton__image" src="img/brick.png" alt="Газобетон">
@@ -218,7 +199,7 @@
         <p class="beton__description">
         Блоки из газобетона прочнее пенобетона, Они
         не крошатся, проще и дешевле в отделке,
-        У газобетона минимальная погрешность- 2 мм, 
+        У газобетона минимальная погрешность - 2 мм, 
         что повышает скорость укладки. Газобетонные
         блоки укладывают на спецклей со швом
         1-2 мм, пенобетонные - на раствор (шов до 15 мм).
@@ -231,10 +212,7 @@
         дома - 450 000 руб.</p>
       </div>
     </div>
-
-
-     <div class="col-md-12">
-      
+     <div class="col-md-12 beton__mobile1">      
       <div class="col-md-6">
         <p class="beton__description_title"><span>Газобетон</span> и кирпич</p>
         <p class="beton__description">
@@ -253,11 +231,27 @@
       <div class="col-md-6">
         <img class="beton__image" src="img/brick1.png" alt="Газобетон">
       </div>
-
-
     </div>
-
-
+ <div class="col-md-12 beton__mobile2">
+      <div class="col-md-6">
+        <img class="beton__image" src="img/brick1.png" alt="Газобетон">
+      </div>
+      <div class="col-md-6">
+        <p class="beton__description_title"><span>Газобетон</span> и кирпич</p>
+        <p class="beton__description">
+        Легкие газобетонные блоки не требуют
+        возведения массивного фундамента.
+        Дом из газобетона возводится в 1.5
+        раза быстрее кирпичного. Газобетон
+        хорошо пропускает воздух, у него
+        низкая теплопроводность. То есть 
+        наружные стены можно делать тонкими,
+        что увеличивает полезную площадь дома
+         на 10-15%. <br>
+        <span>Газобетон:</span> стоимость 1 кв.м - от 7 820 руб.<br>
+        <span class="red_text"> Кирпич:</span> стоимость 1 кв.м от 19 160 руб.</p>
+      </div>
+  </div>
      <div class="col-md-12">
       <div class="col-md-6">
         <img class="beton__image" src="img/brick2.png" alt="Газобетон">
@@ -272,73 +266,54 @@
           грибки. Даже очень большие дома из
           газобетона возводятся за 3 месяца, а
           отделка деревянных может затянуться
-          не на один сезон из за усадки.
+          не на один сезон из-за усадки.
           Газобетонные блоки долгой усадки
-          не требует.<br>
+          не требуют.<br>
         <span>Газобетон:</span> годовое обслуживание
          дома - 10 000 руб.<br>
         <span class="red_text"> Дерево:</span> годовое обслуживание
         дома - 45 000 руб.</p>
       </div>
     </div>
-
   </div>
 </div>
 
 <div class="clearfix"></div> 
 <!-- 
  </div>Разобраться!!!!  -->
-
-
     <div class="present">
-
       <div class="present__body">
         <img class="present__bg" src="img/present_bg.png" alt="Фон">
         <p class="present__title">Получите <span>проект</span> Вашего дома в подарок<br> При заказе строительства до конца месяца</p>
         <div class="col-md-12 present__sections">
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
             <img class="present__image" src="img/present.png" alt="Дом">
           </div>
-          <div class="col-md-4">
-            <button data-target=".modal_callback" data-toggle="modal" class="present__button">Получить</button>
+          <div class="col-md-4 col-sm-12">
+            <button data-target=".modal_callback_design" data-toggle="modal" class="present__button">Получить</button>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
             <p class="present__price">стоимость проекта</p>
-        <span class="old-price">67 000 </span><span class="roubles">руб.</span><br>       
+            <div class="prices">
+        <span class="old-price">67 000 </span><span class="roubles">руб.</span><br> 
+        </div>      
         <img class="present__tag" src="img/present_tab.png" alt="Подарок">
           </div>
-</div>
+          </div>
         </div>
-        
-        
-        
-
       </div>
-
     </div>
    </div>
 </div>
-
-
-
-
-
-
-<div class="clearfix"></div> 
-
-
+<div class="clearfix"></div>
 <section id="test" class="container-fluid">
-<div class="container"> 
-  
+<div class="container">
   <img class="test__bg2" src="img/test_sbg.png" alt="Расчет"> 
    <div class="test__area">
-     
-    
-
-
   <form id="msform" action="mail.php" method="POST" enctype="multipart/form-data">
-  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br> за 1 минуту и получите отопление в <span>подарок!</span></h2>    
+  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br class="breaks"> за 1 минуту и получите отопление в <span>подарок!</span></h2>    
     <fieldset  class="double_section question   tests__questions">
+      <input  type="hidden" name="floor"  value=""  />
       <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
       <div class="row">
         <div class="col-md-12">
@@ -346,214 +321,216 @@
              <div class="answer_block">
               <img class="test__image" src="img/test_11.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check1" type="radio" name="check" value="1 этаж">
+              <input id="check1" type="radio" name="check" value="1 этаж" onclick="msform.floor.value=this.value"  >
                <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
              <div class="answer_block">
               <img class="test__image" src="img/test12.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check2" type="radio" name="check" value="2 этажа">
+              <input id="check2" type="radio" name="check" value="2 этажа"  onclick="msform.floor.value=this.value" >
                <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
              <div class="answer_block">
               <img class="test__image" src="img/test13.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check3" type="radio" name="check" value="3 и более">
+              <input id="check3" type="radio" name="check" value="3 и более" onclick="msform.floor.value=this.value"  >
                <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
              <div class="answer_block">
               <img class="test__image" src="img/test14.jpg" alt="Одноэтажный дом">
-
               <div class="checkbox">
-              <input id="check4" type="radio" name="check" value="с мансардой">
+              <input id="check4" type="radio" name="check" value="с мансардой" onclick="msform.floor.value=this.value">
                <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
                 <br>    
                </div> 
            </div>
           </div>
-        
-
-
-
        </div> <!-- 12 колонок -->
       </div> <!-- ряд -->            
     </fieldset>
-    <fieldset>        
-                 <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
+    <fieldset>
+      <input  type="hidden" name="square"  value=""  />
+    <p class="questions"> Какая <span>площадь</span> Вашего дома?</p>
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-3">
              <div class="answer_block">
-              <img class="test__image" src="img/test_11.jpg" alt="Одноэтажный дом">
+              <span class="answer__text" onclick="msform.square.value=this.value">Дом 1 этаж от 80 м<sup>2</sup></span>
+              <img class="test__image black" src="img/slide_icon1.png" alt="Одноэтажный дом">
 
-              <div class="checkbox">
-              <input id="check1" type="radio" name="check" value="1 этаж">
-               <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
+              <div class="checkbox abs_position">
+              <input id="check21" type="radio" name="check" value="Дом 1 этаж от 80 м"   >
+               <label class="test__label" for="check21"></label>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
              <div class="answer_block">
-              <img class="test__image" src="img/test12.jpg" alt="Одноэтажный дом">
+              <span class="answer__text"  >Дом 2 этажа от 140 м<sup>2</sup></span>
+              <img class="test__image black" src="img/slide_icon2.png" alt="Одноэтажный дом">
 
-              <div class="checkbox">
-              <input id="check2" type="radio" name="check" value="2 этажа">
-               <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
+              <div class="checkbox abs_position">
+              <input id="check22" type="radio" name="check" value="Дом 2 этажа от 140 м" onclick="msform.square.value=this.value">
+               <label class="test__label" for="check22"></label>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
              <div class="answer_block">
-              <img class="test__image" src="img/test13.jpg" alt="Одноэтажный дом">
-
-              <div class="checkbox">
-              <input id="check3" type="radio" name="check" value="3 и более">
-               <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
+              <span class="answer__text">Дом 2 этажа от 140 до 200м<sup>2</sup></span>
+              <img class="test__image black" src="img/slide_icon3.png" alt="Одноэтажный дом">
+              <div class="checkbox abs_position">
+              <input id="check23" type="radio" name="check" value="Дом 2 этажа от 140 до 200м" onclick="msform.square.value=this.value">
+               <label class="test__label" for="check23"></label>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
              <div class="answer_block">
-              <img class="test__image" src="img/test14.jpg" alt="Одноэтажный дом">
-
-              <div class="checkbox">
-              <input id="check4" type="radio" name="check" value="с мансардой">
-               <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
+              <span class="answer__text">Дом от 200м<sup>2</sup></span>
+              <img class="test__image black" src="img/slide_icon4.png" alt="Одноэтажный дом">
+              <div class="checkbox abs_position">
+              <input id="check24" type="radio" name="check" value="Дом от 200м" onclick="msform.square.value=this.value" >
+               <label class="test__label" for="check24"></label>
                 <br>    
                </div> 
            </div>
           </div>
-        
-
-
-
        </div> <!-- 12 колонок -->
-      </div> <!-- ряд --> 
-       
+      </div> <!-- ряд -->       
     </fieldset>
-    <fieldset>        
-                <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
+    <fieldset> 
+    <input  type="hidden" name="distance"  value=""  />       
+    <p class="questions"> Удаленность <span>от Москвы</span></p>
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-3">
-             <div class="answer_block">
-              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
-
+             <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check1" type="radio" name="check" value="1 этаж">
-               <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
+              <input id="check31" type="radio" name="check" value="В черте города"  onclick="msform.distance.value=this.value"  >
+               <label class="test__label" for="check31"></label><span class="answer__text">В черте города</span>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
-             <div class="answer_block">
-              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
-
+             <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check2" type="radio" name="check" value="2 этажа">
-               <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
+              <input id="check32" type="radio" name="check" value="До 50 км" onclick="msform.distance.value=this.value">
+               <label class="test__label" for="check32"></label><span class="answer__text">До 50 км</span>
                 <br>    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
-             <div class="answer_block">
-              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
-
+             <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check3" type="radio" name="check" value="3 и более">
-               <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
-                <br>    
+              <input id="check33" type="radio" name="check" value="От 51 км" onclick="msform.distance.value=this.value">
+               <label class="test__label" for="check33"></label><span class="answer__text">От 51 км</span>
+                    
                </div> 
            </div>
           </div>
-
           <div class="col-md-3">
-             <div class="answer_block">
-              <img class="test__image" src="img/house3.jpg" alt="Одноэтажный дом">
-
+             <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check4" type="radio" name="check" value="с мансардой">
-               <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
+              <input id="check34" type="radio" name="check" value="Другой регион" onclick="msform.distance.value=this.value"  ><label class="test__label" for="check34"></label><span class="answer__text">Другой регион</span>
                 <br>    
                </div> 
            </div>
           </div>
-        
-
-
-
        </div> <!-- 12 колонок -->
-      </div> <!-- ряд -->    
-        
+      </div> <!-- ряд -->        
+    </fieldset>
+    <fieldset> 
+    <input  type="hidden" name="season"  value=""  />       
+    <p class="questions"> Когда планируете <span>начать</span> строительство? </p>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-3">
+             <div class="answer_blocks small">
+              <div class="checkbox">
+              <input id="check41" type="radio" name="check" value="В ближайшее время" onclick="msform.season.value=this.value"  >
+               <label class="test__label" for="check41"></label><span class="answer__text">В ближайшее время</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+
+          <div class="col-md-3">
+             <div class="answer_blocks small">
+              <div class="checkbox">
+              <input id="check42" type="radio" name="check" value="осенью" onclick="msform.season.value=this.value"  >
+               <label class="test__label" for="check42"></label><span class="answer__text">Осенью</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+          <div class="col-md-3">
+              <div class="answer_blocks small">
+              <div class="checkbox">
+              <input id="check43" type="radio" name="check" value="весной" onclick="msform.season.value=this.value"  >
+               <label class="test__label" for="check43"></label><span class="answer__text">Весной</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+          <div class="col-md-3">
+             <div class="answer_blocks small">
+              <div class="checkbox">
+              <input id="check44" type="radio" name="check" value="другое время" onclick="msform.season.value=this.value"  ><label class="test__label" for="check44"></label><span class="answer__text">Другое</span>
+                <br>    
+               </div> 
+           </div>
+          </div>
+       </div> <!-- 12 колонок -->
+      </div> <!-- ряд -->        
     </fieldset>
     <fieldset class="user_info">
-       <!-- <h3 class="fs-title">Заполните контактную информацию</h3> -->
-       <div id="user_block">
-        <input class="compulsory  compulsory1" type="text" name="user_surname" placeholder="Фамилия" required="required"/>
-        <input class="compulsory compulsory1" type="text" name="user_name" placeholder="Имя" required="required"/>
-        <input class="compulsory compulsory1" type="text" name="user_patronymic" placeholder="Отчество" required="required"/>
-    </div>
-    <div class="contacts">
-        <input class="compulsory compulsory2" type="tel" name="user_phone" placeholder="Телефон" required="required"/>
-        <input class="compulsory compulsory2" type="email" name="user_email" placeholder="E-mail" required="required"/> 
-    </div>
-    
+     <p class="questions"> Оставьте Ваш <span>телефон</span> </p>   
+    <div class="orders__form">     
+            <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
+            <input class="orders__inputs phone " placeholder="Телефон" name="user_phone" type="tel" required="required" />
+          <div class="formname">
+             <input id="checkbox" type="checkbox" name="checkbox" checked />
+             <label for="checkbox">Я согласен на обработку персональных данных</label>    
+       </div> 
+      </div>
     </fieldset>
     <div class="button_block">
-
      <a class="next action-button"> Далее</a> 
      <button id="send" type="submit" class="action-button"> Отправить</button> 
      <a id="previous" class=" action-button">Назад</a>
-
-   </div>
-
+     </div>
 </form> 
-
-
 </div> 
 </div>
 </section>
-
-
-
-
-
 <div id="company" class="container-fluid"> 
   <div class="container">    
-     <h2 class="company__title">Почему вы обязательно выберите нас?</h2>
+     <h2 class="company__title">Почему вы обязательно выберете нас?</h2>
      <h3 class="company__greentext">Мы знаем своё дело!</h3>
-     <p class="company__description">Сегодня строительство стало популярным видом бизнеса и к сожалею многие организации открываются только с базовым предствлением о даной отрасли и строительстве в целом. <br> Мы же можем похвастатся тем, что все наши сотрудники имеют стаж 10 лет! <br>Мы специализируемся на строительстве домов именно из газобетона и знаем его как никто лучше! <br>Обращаясь к нам, вы будете уверены, что фундамент вашего жилища, как и весь дом в целом будет сделан на высшем уровне!</p>
+     <p class="company__description">Сегодня строительство стало популярным видом бизнеса и, к сожалению, многие организации открываются только с базовым представлением о данной отрасли и строительстве в целом. <br> Мы же можем похвастаться тем, что все наши сотрудники имеют стаж 10 лет! <br>Мы специализируемся на строительстве домов именно из газобетона и знаем его как никто лучше! <br>Обращаясь к нам, вы будете уверены, что фундамент вашего жилища, как и весь дом в целом, будет сделан на высшем уровне!</p>
      <div class="col-md-12">
         <div class="row advantages_section">
         <div  class="col-md-3 col-sm-6"> 
           <object class="svg_icons icon2" name="graph" type="image/svg+xml" 
-          data="img/icon5.svg"></object>   
-          
+          data="img/icon5.svg"></object>
            <p class="advantages__description">Поможем с выбором
              из 4600 проектов домов</p>      
          </div>
@@ -577,16 +554,9 @@
          </div>          
         </div>
       </div>
-      <button class="header__order callback" data-target=".modal_callback" data-toggle="modal">Узнать подробнее</button>
+      <button class="header__order callback" data-target=".modal_callback_details" data-toggle="modal">Узнать подробнее</button>
     </div>
   </div> 
-
-      
-      
-
-
-
-
 <div id="examples" class="container-fluid">
    <h2 class="examples__title">Как мы <span>работаем</span></h2>   
    <div class="container">
@@ -606,19 +576,13 @@
                 - Закупка материалов<br>
                 - Строительство дома<br>
                 - Сдача проекта</p>
-              </div>
-                   
+              </div>                   
                 </div>
-
                 <div class="item">
                   <img class="examples_slides" alt="Примеры работ" src="img/slider_text2.png">
                   <div class="example__text">
                    <p class="example__title">Гарантия</p>
-                   <p class="example__description">Поскольку основной идеей и миссией нашей компании 
-  является именно качественное строительство домов,
-мы представляем гарантию 5 лет.
-Обращаясь в Градстрой, вы гарантируете себе, что ваше
-жилище будет надежным и крепким долгие годы!</p>
+                   <p class="example__description">Поскольку основной идеей и миссией нашей компании является именно качественное строительство домов,мы представляем гарантию 5 лет.Обращаясь в Градстрой, вы гарантируете себе, что ваше жилище будет надежным и крепким долгие годы!</p>
               </div>
                 </div>
 
@@ -626,425 +590,362 @@
                  <img class="examples_slides" alt="Примеры работ" src="img/slider_text2.png">
                   <div class="example__text">
                  <p class="example__title">Контроль качества</p>
-                 <p class="example__description">На каждом этапе строительства наш инженер лично 
-  осуществаляет авторский, надзор, что позволяет 
-контролировать качество всего дома, Даже после
-того, когда работа завершена и вы уже заселитесь 
-в свое жилище мы будем звонить и спрашивать
-нет ли у вас каких-то коментариев ил же 
-проблем с домом. Если же все таки 
-произошла какая-то ошибка, то мы 
-незамедлительно разрешаем её!
-Мы ценим ваше доверие и относимся к 
-своей работе с уважением!
+                 <p class="example__description">На каждом этапе строительства наш инженер лично осуществаляет авторский надзор, что позволяет контролировать качество всего дома. <br> Даже послетого, когда работа завершена и вы уже заселитесь в свое жилище мы будем звонить и спрашиватьнет ли у вас каких-то комментариев или же проблем с домом. <br> Если же все-таки произошла какая-то ошибка, то мы незамедлительно разрешаем её!Мы ценим ваше доверие и относимся к своей работе с уважением!
               </div>
             </div>                             
           </div>
-
               <!-- LEFT-RIGHT -->
-              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-               <!--  <span class="glyphicon"> -->
-                  <img class="arrows arrow_left" src="img/arrow-left.png" alt="previous">
-              <!--   </span> -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">               
+                  <img class="arrows arrow_left" src="img/arrow-left.png" alt="previous">              
               </a>
-              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                <!-- <span class="glyphicon"> -->
-                  <img class="arrows arrow_right" src="img/arrow-right.png" alt="next">
-              <!--   </span> -->
-              </a>
-
-                            
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">               
+                  <img class="arrows arrow_right" src="img/arrow-right.png" alt="next">             
+              </a>                            
             </div>
           </div>
         </div>
-
     </div>
-      
-
-
-
-
-
-<div class="clearfix"></div>
-
-
-
-<div id="reviews" class="container" >
+  </div>
+<div id="examples_m" class="container-fluid">
+   <h2 class="examples__title">Как мы <span>работаем</span></h2>   
+   <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div id="carousel-example-generic2" class="carousel slide" data-ride="carouse2">
+            <div id="carousel-example-generic_m" class="carousel slide" data-ride="carousel">
               <!-- SLIDES -->
               <div class="carousel-inner" role="listbox">
-
                 <div class="item active">
-                  <div class="col-md-12 review__container">
-                     <div class="col-md-4 image_container"> 
-
-<div class="csslider infinity" id="slider1">
-  <input type="radio" name="slides" id="slides_1"/>
-  <input type="radio" name="slides" checked="checked" id="slides_2"/>
-  <input type="radio" name="slides" id="slides_3"/>  
-  <ul>
-    <li class="scrollable">
-      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
-    </li>
-    <li>
-      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
-    </li>
-    <li>
-      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
-    </li>
-  </ul>
-  <div class="arrows">
-    <label for="slides_1"></label>
-    <label for="slides_2"></label>
-    <label for="slides_3"></label>    
-    <label class="goto-first" for="slides_1"></label>
-    <label class="goto-last" for="slides_3"></label>
-  </div>
-  <div class="navigation"> 
-    <div>
-      <label for="slides_1"></label>
-      <label for="slides_2"></label>
-      <label for="slides_3"></label>      
-    </div>
-  </div>
-</div>
-             </div> 
-                        <div class="col-md-8">
-                        <p class="reviewer__name">Руслан Рябополов</p>
-                        <p class="review__short">«…Работой остался доволен…»
-                        </p>
-                        <p class="review__long">В строительстве дачи я решил прибегнуть к помощи специалистов. Брат рассказал о фирме ГрадСтрой. Так как строительство дачи не было сил откладывать, прозвонил в фирму и договорился о сотрудничестве. Что сказать, строительство закончено в срок и работой я остался очень доволен! Теперь отношусь к строительным компаниям очень лояльно. Спасибо, ГрадСтрой!</p>
-                      </div>
-                  </div>
-            
-
-
-                
-                  <div class="col-md-12 review__container">
-                       <div class="col-md-8">
-                        <p class="reviewer__name">Инга Мельник</p>
-                        <p class="review__short">«…мы случайно попали на ГрадСтрой и остались довольны…»</p>
-                        <p class="review__long">Мы с мужем недавно купили участок в Подмосковье. Времени на выбор строительной компании совсем не было. Мы случайно попали на ГрадСтрой и оказались довольны результатом проделанной работы. Строительство начали в начале июня, а новый год встречали уже в новом доме. Приятно удивил персонал, отношение к клиентам очень лояльное. Спасибо за сотрудничество! </p>
-                     </div>
-                     <div class="col-md-4 image_container">
-
-                                          <div class="col-md-4 image_container"> 
-
-<div class="csslider infinity" id="slider12">
-  <input type="radio" name="slides" id="slides_12"/>
-  <input type="radio" name="slides" checked="checked" id="slides_22"/>
-  <input type="radio" name="slides" id="slides_32"/>  
-  <ul>
-    <li class="scrollable">
-      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
-    </li>
-    <li>
-      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
-    </li>
-    <li>
-      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
-    </li>
-  </ul>
-  <div class="arrows">
-    <label for="slides_12"></label>
-    <label for="slides_22"></label>
-    <label for="slides_32"></label>    
-    <label class="goto-first" for="slides_12"></label>
-    <label class="goto-last" for="slides_32"></label>
-  </div>
-  <div class="navigation"> 
-    <div>
-      <label for="slides_12"></label>
-      <label for="slides_22"></label>
-      <label for="slides_32"></label>      
-    </div>
-  </div>
-</div>                      
-</div>
-                        </div>
-                   </div>
+                  <img class="examples_slides mobile" alt="Примеры работ" src="img/slide1.jpg">
+                <div class="example__text mobile">
+                 <p class="example__title mobile">Ход работы</p>
+                 <p class="example__description mobile">Мы ценим только качество и поэтому все наши проекты идут строго по плану,который мы предоставляем до начала строительства. <br>
+                 Основные этапы строительства:<br>
+                - Подбор проектов<br>
+                - Составление сметы<br>
+                - Закупка материалов<br>
+                - Строительство дома<br>
+                - Сдача проекта</p>
+              </div>                   
                 </div>
-
-
-                 <div class="item">
-                  <div class="col-md-12 review__container">
-                     <div class="col-md-3 image_container">                  
-                             
-<div class="csslider infinity" id="slider13">
-  <input type="radio" name="slides" id="slides_13"/>
-  <input type="radio" name="slides" checked="checked" id="slides_23"/>
-  <input type="radio" name="slides" id="slides_33"/>  
-  <ul>
-    <li class="scrollable">
-      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
-    </li>
-    <li>
-      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
-    </li>
-    <li>
-      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
-    </li>
-  </ul>
-  <div class="arrows">
-    <label for="slides_13"></label>
-    <label for="slides_23"></label>
-    <label for="slides_33"></label>    
-    <label class="goto-first" for="slides_13"></label>
-    <label class="goto-last" for="slides_33"></label>
-  </div>
-  <div class="navigation"> 
-    <div>
-      <label for="slides_13"></label>
-      <label for="slides_23"></label>
-      <label for="slides_33"></label>      
-    </div>
-  </div>
-</div>                      
-
-
-
-                        </div>         
-                    <div class="col-md-9">
-                        <p class="reviewer__name">Степан Поддубный</p>
-                        <p class="review__short">«…я боялся высоких цен…»</p>
-                        <p class="review__long">Строительство дома – дело нехитрое и сложное. Больше всего я боялся высоких цен. Страшно становится уже при входе в строительный магазин, не говоря уже о масштабном строительстве. Обратился в ГрадСтрой, мне предоставили примерный ценник, я согласился, но морально был готов к тому, что он будет раза в два выше по итогу работы. Однако в смету уложились, чему я очень рад! Ребята оказались профессионалами, дом построен на совесть, спасибо вам большое! </p>
-                   </div>
-               </div>
-             
-               
-                  <div class="col-md-12 review__container">
-                  <div class="col-md-9">
-                        <p class="reviewer__name">Кирилл Савченко</p>
-                        <p class="review__short">«…даже теща осталась довольна…»</p>
-                        <p class="review__long">Строительство дачи у нас затянулось. Изначально хотели строить дом своими силами, но когда поняли, что нам не потянуть, обратились в вашу фирму. Жена боялась высоких цен, а я – работников, которые будут халтурить и увиливать от работы. Но ваша компания показала высший класс! Рабочие ответственные, понимают, что и как нужно делать. Дом построен вовремя и даже теща осталась довольна! </p>
-                   </div>
-
-                     <div class="col-md-3 image_container">                  
-                             
-<div class="csslider infinity" id="slider14">
-  <input type="radio" name="slides" id="slides_14"/>
-  <input type="radio" name="slides" checked="checked" id="slides_24"/>
-  <input type="radio" name="slides" id="slides_34"/>  
-  <ul>
-    <li class="scrollable">
-      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
-    </li>
-    <li>
-      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
-    </li>
-    <li>
-      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
-    </li>
-  </ul>
-  <div class="arrows">
-    <label for="slides_14"></label>
-    <label for="slides_24"></label>
-    <label for="slides_34"></label>    
-    <label class="goto-first" for="slides_14"></label>
-    <label class="goto-last" for="slides_34"></label>
-  </div>
-  <div class="navigation"> 
-    <div>
-      <label for="slides_14"></label>
-      <label for="slides_24"></label>
-      <label for="slides_34"></label>      
-    </div>
-  </div>
-</div>
-
-
-                        </div>
-                   </div>
-                </div>
-
                 <div class="item">
-                  <div class="col-md-12 review__container">
-                     <div class="col-md-3 image_container">
-
-                     <div class="csslider infinity" id="slider12">
-  <input type="radio" name="slides" id="slides_15"/>
-  <input type="radio" name="slides" checked="checked" id="slides_25"/>
-  <input type="radio" name="slides" id="slides_35"/>  
-  <ul>
-    <li class="scrollable">
-      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
-    </li>
-    <li>
-      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
-    </li>
-    <li>
-      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
-    </li>
-  </ul>
-  <div class="arrows">
-    <label for="slides_15"></label>
-    <label for="slides_25"></label>
-    <label for="slides_35"></label>    
-    <label class="goto-first" for="slides_15"></label>
-    <label class="goto-last" for="slides_35"></label>
-  </div>
-  <div class="navigation"> 
-    <div>
-      <label for="slides_15"></label>
-      <label for="slides_25"></label>
-      <label for="slides_35"></label>      
-    </div>
-  </div>
-</div>                      
-                 
-                             
-
-                        </div>         
-                        <div class="col-md-9">
-                        <p class="reviewer__name">Михаил Сергиенко</p>
-                        <p class="review__short">«…в бюджет вписались, жена довольна…»</p>
-                        <p class="review__long">Решил оставить отзыв о своем опыте обращения в фирму ГрадСтрой. Обратился я по совету своего друга, которому построили отличный загородный дом. Я же покупал участок под дом для жительства на постоянной основе. Понравилось то, что ребята учли все мои пожелания. Дом построили за 7 месяцев, при том, что я постоянно вносил свои корректировки. Хотелось два этажа и 6 комнат, просторную кухню. По итогу, в бюджет вписались, вся семья из пяти человек поместилась. Жена очень довольна, дом теплый и уютный. ГрадСтрой, вы мастера своего дела! </p>
-               </div>
-             </div>
-                  <div class="col-md-12 review__container">
-
-                   <div class="col-md-9">
-                        <p class="reviewer__name">Мария Бажаненко</p>
-                        <p class="review__short">«…я влюбилась в этот дом…»</p>
-                        <p class="review__long">Я обратилась в вашу фирму не случайно. Долгое время искала достойную строительную фирму и, ориентируясь по отзывам клиентов, попала в ГрадСтрой. Дом нужен был моим родителям. Основным запросом был маленький теплый и уютный домик. Четыре с половиной месяца понадобилось, чтобы осуществить мечту мамы и папы. Я влюбилась в новый дом с первого взгляда – все именно так, как было задумано по проекту. Дом радует родителей, спасибо фирме!</p>
-                   </div>
-
-                     <div class="col-md-3 image_container">                  
-                            
-<div class="csslider infinity" id="slider16">
-  <input type="radio" name="slides" id="slides_16"/>
-  <input type="radio" name="slides" checked="checked" id="slides_26"/>
-  <input type="radio" name="slides" id="slides_36"/>  
-  <ul>
-    <li class="scrollable">
-      <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   
-    </li>
-    <li>
-      <div id="center"> <a class="review_image" data-fancybox="gallery" href="img/review2.jpg"><img src="img/review1.jpg"></a>   </div>
-    </li>
-    <li>
-      <div id="center"><a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>   </div>
-    </li>
-  </ul>
-  <div class="arrows">
-    <label for="slides_16"></label>
-    <label for="slides_26"></label>
-    <label for="slides_36"></label>    
-    <label class="goto-first" for="slides_16"></label>
-    <label class="goto-last" for="slides_36"></label>
-  </div>
-  <div class="navigation"> 
-    <div>
-      <label for="slides_16"></label>
-      <label for="slides_26"></label>
-      <label for="slides_36"></label>      
-    </div>
-  </div>
-</div>                      
-</div>
-
-                        </div>
-                   </div>
-                </div>
-                  
-
-
-                  <!-- <div class="item">
-                  <div class="col-md-12 review__container">
-                     <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
-                        </div>        
-                      <div class="col-md-9">
-                        <p class="reviewer__name">Михаил Недоскоков:</p>
-                        <p class="review__short">“Расписали все расходы с точностью до рубля”</p>
-                        <p class="review__long">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos </p>                 
-               </div>
-             </div>                
-                  <div class="col-md-12 review__container">
-                  <div class="col-md-9">
-                        <p class="reviewer__name">Михаил Недоскоков:</p>
-                        <p class="review__short">“Расписали все расходы с точностью до рубля”</p>
-                        <p class="review__long">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos </p>
-                   </div>
-
-                     <div class="col-md-3 image_container">                  
-                             <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a>                            
-                              <a class="review_image" data-fancybox="gallery" href="img/review1.jpg"><img src="img/review2.jpg"></a> 
-                        </div>
-                   </div> -->
+                  <img class="examples_slides mobile" alt="Примеры работ" src="img/second_slide.jpg">
+                  <div class="example__text mobile">
+                   <p class="example__title mobile">Гарантия</p>
+                   <p class="example__description mobile">Поскольку основной идеей и миссией нашей компании является именно качественное строительство домов,мы представляем гарантию 5 лет. Обращаясь в Градстрой, вы гарантируете себе, что вашежилище будет надежным и крепким долгие годы!</p>
               </div>
-            </div>
-
-              
-              <!-- THUMBNAILS -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active">
-                  
-                </li>
-                <li data-target="#carousel-example-generic2" data-slide-to="1">
-                  
-                </li>
-                <li data-target="#carousel-example-generic2" data-slide-to="2">
-                
-                </li>
-                <!-- <li data-target="#carousel-example-generic2" data-slide-to="3">
-                  
-                </li>     -->            
-              </ol>
-
-            
+                </div>
+                <div class="item">
+                 <img class="examples_slides mobile" alt="Примеры работ" src="img/second_slide.jpg">
+                  <div class="example__text mobile">
+                 <p class="example__title mobile">Контроль качества</p>
+                 <p class="example__description mobile">На каждом этапе строительства наш инженер лично  осуществаляет авторский надзор, что позволяет контролировать качество всего дома. Даже после того, когда работа завершена и вы уже заселитесь в свое жилище мы будем звонить и спрашиватьинет ли у вас каких-то комментариев или же проблем с домом. Если же все-таки произошла какая-то ошибка, то мы незамедлительно разрешаем её! Мы ценим ваше доверие и относимся к своей работе с уважением!
+              </div>
+            </div>                             
+          </div>
+              <!-- LEFT-RIGHT -->
+              <a class="left carousel-control" href="#carousel-example-generic_m" role="button" data-slide="prev">               
+                  <img class="arrows arrow_left" src="img/arrow-left.png" alt="previous">              
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic_m" role="button" data-slide="next">               
+                  <img class="arrows arrow_right" src="img/arrow-right.png" alt="next">             
+              </a>                            
             </div>
           </div>
         </div>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div>
+  </div>
 <div class="clearfix"></div>
+<div id="reviews" class="container" >
+<div class="row">
+<div class="col-md-12">
+<div id="carousel-example-generic2" class="carousel slide" data-ride="carouse2">
+<!-- SLIDES -->
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<div class="col-md-12 review__container">
+<div class="col-md-4 image_container">
+<div class="csslider infinity" id="slider1">
+<input type="radio" name="slides" id="slides_1"/>
+<input type="radio" name="slides" checked="checked" id="slides_2"/>
+<input type="radio" name="slides" id="slides_3"/>  
+<ul>
+<li class="scrollable">
+<a  data-fancybox="gallery" href="portfolio/11.jpg"><img class="review_image" src="portfolio/11s.jpg"></a>   
+</li>
+<li>
+<div class="centers"> <a data-fancybox="gallery" href="portfolio/12.jpg"><img class="review_image" src="portfolio/12s.jpg"></a>     </div>
+</li>
+<li>
+<div class="centers"><a  data-fancybox="gallery" href="portfolio/13.jpg"><img class="review_image" src="portfolio/13s.jpg"></a>     </div>
+</li>
+</ul>
+<!-- <div class="arrows">
+<label for="slides_1"></label>
+<label for="slides_2"></label>
+<label for="slides_3"></label>    
+<label class="goto-first" for="slides_1"></label>
+<label class="goto-last" for="slides_3"></label>
+</div> -->
+<div class="navigation"> 
+<div>
+<label for="slides_1"></label>
+<label for="slides_2"></label>
+<label for="slides_3"></label>      
+</div>
+</div>
+</div>
+</div> 
+<div class="col-md-8">
+<p class="reviewer__name">Руслан Рябополов</p>
+<p class="review__short">«…Работой остался доволен…»
+</p>
+<p class="review__long">В строительстве дачи я решил прибегнуть к помощи специалистов. Брат рассказал о фирме ГрадСтрой. Так как строительство дачи не было сил откладывать, позвонил в фирму и договорился о сотрудничестве. Что сказать, строительство закончено в срок и работой я остался очень доволен! Теперь отношусь к строительным компаниям очень лояльно. Спасибо, ГрадСтрой!</p>
+</div>
+</div>
+<div class="col-md-12 review__container">
+<div class="col-md-8">
+<p class="reviewer__name">Инга Мельник</p>
+<p class="review__short">«…мы случайно попали на ГрадСтрой и остались довольны…»</p>
+<p class="review__long">Мы с мужем недавно купили участок в Подмосковье. Времени на выбор строительной компании совсем не было. Мы случайно попали на ГрадСтрой и оказались довольны результатом проделанной работы. Строительство начали в начале июня, а новый год встречали уже в новом доме. Приятно удивил персонал, отношение к клиентам очень лояльное. Спасибо за сотрудничество! </p>
+</div>
+<div class="col-md-4 image_container">
 
-      
+<div class="col-md-4 image_container"> 
 
-
-
+<div class="csslider infinity" id="slider12">
+<input type="radio" name="slides" id="slides_12"/>
+<input type="radio" name="slides" checked="checked" id="slides_22"/>
+<input type="radio" name="slides" id="slides_32"/>  
+<ul>
+<li class="scrollable">
+<a  data-fancybox="gallery" href="portfolio/21.jpg"><img class="review_image" src="portfolio/21s.jpg"></a>   
+</li>
+<li>
+<div class="centers"> <a  data-fancybox="gallery" href="portfolio/22.jpg"><img class="review_image" src="portfolio/22s.jpg"></a>     </div>
+</li>
+<li>
+<div class="centers"><a  data-fancybox="gallery" href="portfolio/23.jpg"><img class="review_image" src="portfolio/23s.jpg"></a>     </div>
+</li>
+</ul>
+<!-- <div class="arrows">
+<label for="slides_12"></label>
+<label for="slides_22"></label>
+<label for="slides_32"></label>    
+<label class="goto-first" for="slides_12"></label>
+<label class="goto-last" for="slides_32"></label>
+</div> -->
+<div class="navigation"> 
+<div>
+<label for="slides_12"></label>
+<label for="slides_22"></label>
+<label for="slides_32"></label>      
+</div>
+</div>
+</div>                      
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-md-12 review__container">
+<div class="col-md-3 image_container">
+<div class="csslider infinity" id="slider13">
+<input type="radio" name="slides" id="slides_13"/>
+<input type="radio" name="slides" checked="checked" id="slides_23"/>
+<input type="radio" name="slides" id="slides_33"/>  
+<ul>
+<li class="scrollable">
+<a  data-fancybox="gallery" href="portfolio/31.jpg"><img class="review_image" src="portfolio/31s.jpg"></a>   
+</li>
+<li>
+<div class="centers"> <a  data-fancybox="gallery" href="portfolio/32.jpg"><img class="review_image" src="portfolio/32s.jpg"></a>     </div>
+</li>
+<li>
+<div class="centers"><a  data-fancybox="gallery" href="portfolio/33.jpg"><img class="review_image" src="portfolio/33s.jpg"></a>     </div>
+</li>
+</ul>
+<!-- <div class="arrows">
+<label for="slides_13"></label>
+<label for="slides_23"></label>
+<label for="slides_33"></label>    
+<label class="goto-first" for="slides_13"></label>
+<label class="goto-last" for="slides_33"></label>
+</div> -->
+<div class="navigation"> 
+<div>
+<label for="slides_13"></label>
+<label for="slides_23"></label>
+<label for="slides_33"></label>      
+</div>
+</div>
+</div>
+</div>         
+<div class="col-md-9">
+<p class="reviewer__name">Степан Поддубный</p>
+<p class="review__short">«…я боялся высоких цен…»</p>
+<p class="review__long">Строительство дома – дело нехитрое и сложное. Больше всего я боялся высоких цен. Страшно становится уже при входе в строительный магазин, не говоря уже о масштабном строительстве. Обратился в ГрадСтрой, мне предоставили примерный ценник, я согласился, но морально был готов к тому, что он будет раза в два выше по итогу работы. Однако в смету уложились, чему я очень рад! Ребята оказались профессионалами, дом построен на совесть, спасибо вам большое! </p>
+</div>
+</div>
+<div class="col-md-12 review__container">
+<div class="col-md-9">
+<p class="reviewer__name">Кирилл Савченко</p>
+<p class="review__short">«…даже теща осталась довольна…»</p>
+<p class="review__long">Строительство дачи у нас затянулось. Изначально хотели строить дом своими силами, но когда поняли, что нам не потянуть, обратились в вашу фирму. Жена боялась высоких цен, а я – работников, которые будут халтурить и увиливать от работы. Но ваша компания показала высший класс! Рабочие ответственные, понимают, что и как нужно делать. Дом построен вовремя и даже теща осталась довольна! </p>
+</div>
+<div class="col-md-3 image_container">
+<div class="csslider infinity" id="slider14">
+<input type="radio" name="slides" id="slides_14"/>
+<input type="radio" name="slides" checked="checked" id="slides_24"/>
+<input type="radio" name="slides" id="slides_34"/>  
+<ul>
+<li class="scrollable">
+<a  data-fancybox="gallery" href="portfolio/41.jpg"><img class="review_image" src="portfolio/41s.jpg"></a>   
+</li>
+<li>
+<div class="centers"> <a  data-fancybox="gallery" href="portfolio/42.jpg"><img class="review_image" src="portfolio/42s.jpg"></a>     </div>
+</li>
+<li>
+<div class="centers"><a  data-fancybox="gallery" href="portfolio/43.jpg"><img class="review_image" src="portfolio/43s.jpg"></a>     </div>
+</li>
+</ul>
+<!-- <div class="arrows">
+<label for="slides_14"></label>
+<label for="slides_24"></label>
+<label for="slides_34"></label>    
+<label class="goto-first" for="slides_14"></label>
+<label class="goto-last" for="slides_34"></label>
+</div> -->
+<div class="navigation"> 
+<div>
+<label for="slides_14"></label>
+<label for="slides_24"></label>
+<label for="slides_34"></label>      
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="item">
+<div class="col-md-12 review__container">
+<div class="col-md-3 image_container">
+<div class="csslider infinity" id="slider12">
+<input type="radio" name="slides" id="slides_15"/>
+<input type="radio" name="slides" checked="checked" id="slides_25"/>
+<input type="radio" name="slides" id="slides_35"/>  
+<ul>
+<li class="scrollable">
+<a  data-fancybox="gallery" href="portfolio/51.jpg"><img class="review_image" src="portfolio/51s.jpg"></a>   
+</li>
+<li>
+<div class="centers"> <a  data-fancybox="gallery" href="portfolio/52.jpg"><img class="review_image" src="portfolio/52s.jpg"></a>     </div>
+</li>
+<li>
+<div class="centers"><a  data-fancybox="gallery" href="portfolio/53.jpg"><img class="review_image" src="portfolio/53s.jpg"></a>     </div>
+</li>
+</ul>
+<!-- <div class="arrows">
+<label for="slides_15"></label>
+<label for="slides_25"></label>
+<label for="slides_35"></label>    
+<label class="goto-first" for="slides_15"></label>
+<label class="goto-last" for="slides_35"></label>
+</div> -->
+<div class="navigation"> 
+<div>
+<label for="slides_15"></label>
+<label for="slides_25"></label>
+<label for="slides_35"></label>      
+</div>
+</div>
+</div>
+</div>         
+<div class="col-md-9">
+<p class="reviewer__name">Михаил Сергиенко</p>
+<p class="review__short">«…в бюджет вписались, жена довольна…»</p>
+<p class="review__long">Решил оставить отзыв о своем опыте обращения в фирму ГрадСтрой. Обратился я по совету своего друга, которому построили отличный загородный дом. Я же покупал участок под дом для жительства на постоянной основе. Понравилось то, что ребята учли все мои пожелания. Дом построили за 7 месяцев, при том, что я постоянно вносил свои корректировки. Хотелось два этажа и 6 комнат, просторную кухню. По итогу, в бюджет вписались, вся семья из пяти человек поместилась. Жена очень довольна, дом теплый и уютный. ГрадСтрой, вы мастера своего дела! </p>
+</div>
+</div>
+<div class="col-md-12 review__container">
+<div class="col-md-9">
+<p class="reviewer__name">Мария Бажаненко</p>
+<p class="review__short">«…я влюбилась в этот дом…»</p>
+<p class="review__long">Я обратилась в вашу фирму не случайно. Долгое время искала достойную строительную фирму и, ориентируясь по отзывам клиентов, попала в ГрадСтрой. Дом нужен был моим родителям. Основным запросом был маленький теплый и уютный домик. Четыре с половиной месяца понадобилось, чтобы осуществить мечту мамы и папы. Я влюбилась в новый дом с первого взгляда – все именно так, как было задумано по проекту. Дом радует родителей, спасибо фирме!</p>
+</div>
+<div class="col-md-3 image_container">
+<div class="csslider infinity" id="slider16">
+<input type="radio" name="slides" id="slides_16"/>
+<input type="radio" name="slides" checked="checked" id="slides_26"/>
+<input type="radio" name="slides" id="slides_36"/>  
+<ul>
+<li class="scrollable">
+<a  data-fancybox="gallery" href="portfolio/61.jpg"><img class="review_image" src="portfolio/61s.jpg"></a>   
+</li>
+<li>
+<div class="centers"> <a  data-fancybox="gallery" href="portfolio/62.jpg"><img class="review_image" src="portfolio/62s.jpg"></a>     </div>
+</li>
+<li>
+<div class="centers"><a  data-fancybox="gallery" href="portfolio/63.jpg"><img class="review_image" src="portfolio/63s.jpg"></a>     </div>
+</li>
+</ul>
+<!-- <div class="arrows">
+<label for="slides_16"></label>
+<label for="slides_26"></label>
+<label for="slides_36"></label>    
+<label class="goto-first" for="slides_16"></label>
+<label class="goto-last" for="slides_36"></label>
+</div> -->
+<div class="navigation"> 
+<div>
+<label for="slides_16"></label>
+<label for="slides_26"></label>
+<label for="slides_36"></label>      
+</div>
+</div>
+</div>                      
+</div>
+</div>
+</div>
+</div>
+                  
+           <!--  </div>
+            </div> -->             
+              
+<div class="tablo">
+               <!-- THUMBNAILS -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active">                  
+                </li>
+                <li data-target="#carousel-example-generic2" data-slide-to="1">                  
+                </li>
+                <li data-target="#carousel-example-generic2" data-slide-to="2">                
+                </li>                          
+              </ol>
+            </div>
+            </div>
+          </div>
+        </div>
+<div class="clearfix"></div>
 </div>
 </div><!-- Разобраться с закрытием секций!!!!!!!!!!!! -->
-
 <div class="container-fluid section_paddings" id="orders">    
    <div class="container">   
       <p class="orders__question">Остались <span>вопросы</span>?<br>
          Заполните форму ниже и наш менеджер перезвонит вам через 2 минуты </p>
            <form class="orders__form" action="call.php" method="POST">
-            <div>
+             <input class="orders__inputs" name="purpose" type="hidden" value="обратный звонок" />
+            <!-- <div>
             <i class="fa fa-user" aria-hidden="true"></i>
             <input class="orders__inputs"  placeholder="Имя" name="user_name" type="text" required="required"/>
-            </div>             
+            </div>   -->           
           <div>
             <i class="fa fa-phone" aria-hidden="true"></i>
             <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
           </div>            
           <div class="formname">
-             <input id="checkbox" type="checkbox" name="checkbox" checked onchange="document.getElementById('submit').disabled = !this.checked;" />
-             <label for="checkbox">Я согласен на обработку персональных данных</label>    
-            <input type="submit"  name="submit" id="submit" value="Позвоните мне" />
+             <input id="checkbox_s" type="checkbox" name="checkbox_s" checked onchange="document.getElementById('submit_s').disabled = !this.checked;" />
+             <label for="checkbox_s">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_s" value="Позвоните мне" />
            </div>             
          </form> 
   </div>
@@ -1058,7 +959,7 @@
                <span class="footer__activity">Строительство домов <br> из газобетона</span></p>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
-              <a class="footer__privacy" href="policy.html" target="a_blank">Политика конфиденциальности</a><br>
+              <a class="footer__privacy" href="policy.html" target="a_blank">Политика конфиденциальности</a><br class="breaks2">
               <a class="footer__link" href="http://xn-----mlccidcdkky6cig2k.xn--p1ai/" target="_blank">Клиенты из сети</a>              
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12"> 
@@ -1069,7 +970,6 @@
         </div>
       </div>   
 </footer>
-
 </div>
 <!-- callback -->
 <div class="modal fade modal_callback" tabindex="-1" role="dialog">
@@ -1081,11 +981,8 @@
           Заказ обратного звонка
         </div>
         <div class="form mt-20">
-      <form class="orders__form modal_form" action="call.php" method="POST">
-            <div>
-            <i class="fa fa-user" aria-hidden="true"></i>
-            <input class="orders__inputs"  placeholder="Имя" name="user_name" type="text" required="required"/>
-            </div>             
+      <form class="orders__form modal_form" action="call.php" method="POST">            
+            <input class="orders__inputs" name="purpose" type="hidden" value="обратный звонок" />                         
           <div>
             <i class="fa fa-phone" aria-hidden="true"></i>
             <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
@@ -1101,68 +998,69 @@
     </div>
   </div>
 </div>
-
-
-
-
-<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/scrollspy.min.js"></script>
-<script src="js/script.min.js"></script>
-<script src="js/index.js"></script>
+<div class="modal fade modal_callback_design" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+      <div class="modal-body">
+        <div class="titles">
+         Получить дизайн-проект<br> будущего дома
+        </div>
+        <div class="form mt-20">
+         <form class="orders__form modal_form" action="call.php" method="POST">                      
+            <input class="orders__inputs"  name="purpose" type="hidden" value="дизайн-проект">                         
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
+          <div class="formname">
+             <input id="checkbox_d" type="checkbox" name="checkbox_m" checked onchange="document.getElementById('submit_d').disabled = !this.checked;" />
+             <label for="checkbox_m">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_d" value="Позвоните мне" />
+           </div>             
+         </form> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade modal_callback_details" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+      <div class="modal-body">
+        <div class="titles">
+         Наш менеджер подробно расскажет Вам об условиях и преимуществах работы с нами
+        </div>
+        <div class="form mt-20">
+         <form class="orders__form modal_form" action="call.php" method="POST">                      
+            <input class="orders__inputs"  name="purpose" type="hidden" value="информацию об условиях работы">
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
+          <div class="formname">
+             <input id="checkbox_det" type="checkbox" name="checkbox_m" checked onchange="document.getElementById('submit_det').disabled = !this.checked;" />
+             <label for="checkbox_m">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_det" value="Узнать подробнее" />
+           </div>             
+         </form> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" defer></script>
+<script src="js/bootstrap.js" defer></script>
+<script src="js/scrollspy.min.js" defer></script>
+<script src="js/script.min.js" defer></script>
+<script src="js/index.js" defer></script>
 <script src="js/jquery.maskedinput.min.js"></script>
 <script>
-
 $(function(){ 
   $(".orders__inputs.phone").mask("+7(999) 999-99-99");
 });
 </script>
 <script src="js/jquery.fancybox.js"></script>
-
-
-<script>
- 
-function theRotator() {
-  // Устанавливаем прозрачность всех картинок в 0
-  $('div#rotator ul li').css({opacity: 0.0});
- 
-  // Берем первую картинку и показываем ее (по пути включаем полную видимость)
-  $('div#rotator ul li:first').css({opacity: 1.0});
- 
-  // Вызываем функцию rotate для запуска слайдшоу, 5000 = смена картинок происходит раз в 5 секунд
-  setInterval('rotate()',3000);
-}
- 
-function rotate() { 
-  // Берем первую картинку
-  var current = ($('div#rotator ul li.show')?  $('div#rotator ul li.show') : $('div#rotator ul li:first'));
- 
-  // Берем следующую картинку, когда дойдем до последней начинаем с начала
-  var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div#rotator ul li:first') :current.next()) : $('div#rotator ul li:first')); 
- 
-  // Расскомментируйте, чтобы показвать картинки в случайном порядке
-  // var sibs = current.siblings();
-  // var rndNum = Math.floor(Math.random() * sibs.length );
-  // var next = $( sibs[ rndNum ] );
- 
-  // Подключаем эффект растворения/затухания для показа картинок, css-класс show имеет больший z-index
-  next.css({opacity: 0.0})
-  .addClass('show')
-  .animate({opacity: 1.0}, 1000);
- 
-  // Прячем текущую картинку
-  current.animate({opacity: 0.0}, 1000)
-  .removeClass('show');
-};
- 
-$(document).ready(function() {    
-  // Запускаем слайдшоу
-  theRotator();
-});
- 
-</script>
-
-
-
 </body>
 </html>
