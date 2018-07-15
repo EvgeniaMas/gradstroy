@@ -6,25 +6,156 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="format-detection" content="telephone=no">
 <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-<meta http-equiv="x-rim-auto-match" content="none">
 <meta name="description" content="Град Строй строительство домов из газобетона" />
 <meta name="keywords" content="строительство домов из газобетона, расчет, смета, заказать" />
 <title>Град Строй</title>
 <!-- Bootstrap -->
 <link rel="stylesheet" href="css/bootstrap.css">
-<!-- <link rel="stylesheet" href="css/quizz.css"> -->
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
 <style>
-
-
-
-
+.wrapper {
+margin:auto;
+height: 100%;    
+}
+#header__top{
+max-width: 191.25rem;
+margin:auto;
+}
+#header {
+position:relative;
+height: 100vh;
+max-height: 63.19rem;
+min-height:50rem;
+padding-bottom: 8.813rem;
+background-color:#f3f3f1;
+padding-top: 1.875rem;
+}
+.header__order.callback {
+background-color: rgb( 124, 195, 63 );
+box-shadow: 0.087px 0.25rem 0.5rem 0 rgb( 54, 110, 6 );
+width: 14.44rem;
+height:3.375rem;
+line-height:3.375rem;
+margin:auto;
+margin-bottom:3.375rem;
+margin-top:3.125rem;
+font-size: 1.25rem;
+font-family: "Proxima Nova Regular";
+color: rgb( 255, 255, 255 );
+text-align: center;
+border-radius: 1.25rem;
+display: block;
+}
+.header__questions {  
+font-size:1.563rem;
+font-family: "Proxima Nova Regular";
+color: rgb( 85, 85, 85 );
+text-align: center;
+margin-top: 3.75rem;
+margin-bottom: 3.75rem;
+}
+.green_block {
+position:absolute;
+height: 100vh;
+top: 0;
+right: 0;
+width: 30.9%;
+background:url(img/elips.png) no-repeat;
+background-size:cover;
+background-position:center center;
+min-height:50rem;
+padding-bottom: 8.813rem;
+}
+.header_house {
+display: block;
+position: absolute;
+max-width: 30.44rem;
+width: 70%;
+top: 20%;
+left: -20%;
+}
+.navbar-brand {
+position: absolute;
+font-size: 1.25rem;
+font-family: "Proxima Nova Regular";
+color: rgb(120, 191, 59);
+line-height: 1.2;
+text-align: center;
+left: 0;
+top: 0; 
+}
+a.navbar-brand:hover{
+color: rgb(120, 191, 59);
+cursor: default;
+}
+a.navbar-brand span {
+font-family: "Proxima Nova Regular";
+}
+.phone_container  {
+position: absolute;
+right: 0;
+top: 0;
+width: 30%;
+}
+.navbar-brand span{
+font-weight: normal;
+}
+.navbar.navbar-default {
+background-color: transparent!important;
+border: none;  
+}
+.navbar-default .navbar-nav > li > a { 
+font-size: 1.25rem;
+font-family: "Proxima Nova Regular";
+color:#787878!important;
+line-height: 1.2;
+text-align: left;
+}
+.navbar-default .navbar-nav > li:last-child>a{
+padding-right: 0!important}
+.navbar-default .navbar-nav > li > a:hover{
+color: rgb(120, 191, 59)!important;
+}
+.header__phone {
+font-size: 1.5rem;
+font-family: "Proxima Nova Light";
+color: rgb( 255, 255, 255 );
+text-align: left;
+display: block;
+text-align: right;
+}
+.callback_link{
+border:none;
+border-bottom:  0.0625rem solid #fff;
+background-color: transparent;
+font-size: 1.5rem;
+color: #fff;  
+margin-right: 5.125rem;
+position: relative;
+margin-bottom: 1.25rem;
+display: block;
+float: right;
+}
+.header__activity {
+font-size: 2.063rem;
+font-family: "Proxima Nova Regular";
+color: rgb(85, 85, 85);
+line-height: 1.2;
+text-align: left;
+z-index: 14;
+margin-top: 10%;
+}
+.sum_notchanged {
+font-size:1.375rem;
+font-family: "Proxima Nova Regular ";
+color: rgb(53, 52, 52);
+line-height: 1.2;
+text-align: center;
+}
+.header__activity span,
+.result,
+.sum_notchanged span {
+color: rgb(120, 191, 59);
+}
 </style> 
 <!-- <link rel="stylesheet" type="text/css" href="css/slick.css"> -->
 <link rel="stylesheet" href="css/style.min.css">
@@ -40,6 +171,7 @@
   <div class="green_block">   
    <img class="header_house" src="img/main_house.png" alt="Дом из газобетона">
   </div>
+  <div id="header__top">
    <div  class="col-md-12" id="header__navigation">
     <div class="col-md-8 col-sm-8">
       <a class="navbar-brand" href="#">Град Строй <br><span>Строительство домов <br> из газобетона</span></a>
@@ -64,12 +196,13 @@
         </div><!-- /.navbar-collapse -->      
       </nav>
     </div>
-    <div class="col-md-2 col-sm-4 phone_container">
+    <div class="col-md-2 col-sm-3 phone_container">
 
     	     <a href="tel:+74953231243" class="header__phone">+7 (495) 323-12-43</a>
 
             <a class="header__order callback_link" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать</a>                    
      </div>
+</div>
 </div>
 <div class="container">
   <div class="col-md-9">
@@ -92,10 +225,10 @@
      <h2 class="advantages__title">Строительство <span>Градcтрой</span> это:</h2>
      <div class="col-md-12 ">
         <div class="row advantages_section">
-        <div  class="col-md-3 col-sm-6"> 
+        <div class="col-md-3 col-sm-6 "> 
           <object class="svg_icons" name="graph" type="image/svg+xml" 
           data="img/icon1.svg"></object>   
-          <p class="advantages__text">Выгодно</p> 
+          <p class="advantages__text economy">Выгодно</p> 
            <p class="advantages__description">Фиксированная стоимость
             строительства</p>      
          </div>
@@ -137,43 +270,42 @@
   <img class="process_image" src="img/grey_houses.png" alt="Силуэты домов">
 </div>
 <div id="select_house" class="container-fluid"> 
-  <div class="container select__container"> 
-    
+  <div class="container select__container">    
      <h2 class="select_house__title">Какой дом вам нужен?</h2>
         <div class="row">
         <div  class="col-md-4 col-sm-12">
           <div class="select_house__block">
-            <img class="select_house__image" src="img/house1.jpg">
+            <img class="select_house__image" src="img/house1.jpg" alt="Дом из газобетона">
             <span class="select_house__text"><span>Дом</span> до 100 м<sup>2</sup></span>
-            <span class="select_house__icon"><img src="img/house1_icon.png"></span>
+            <span class="select_house__icon"><img сlass="select__icon" src="img/house1_icon.png" alt="Дом из газобетона"></span>
             <p class="select_house__description">Строительство такого дома займет всего лишь месяц - то есть уже через 30 дней Вы пригласите
             друзей отметить новоселье!</p>
            <a class="select_house__button" href="#test" target="_blank">
-            <img class="select_house__button_icon" src="img/arrow.png">Рассчитать стоимость
+            <img class="select_house__button_icon" src="img/arrow.png" alt="Дом из газобетона">Рассчитать стоимость
            </a>
           </div>
          </div>
           <div  class="col-md-4 col-sm-12">
           <div class="select_house__block">
-            <img class="select_house__image" src="img/house2.jpg">
+            <img class="select_house__image" src="img/house2.jpg" alt="Дом из газобетона">
             <span class="select_house__text"><span>Дом</span> до 170 м<sup>2</sup></span>
-            <span class="select_house__icon"><img src="img/house2_icon.png"></span>
+            <span class="select_house__icon"><img сlass="select__icon" src="img/house2_icon.png" alt="Дом из газобетона"></span>
             <p class="select_house__description">Дома из газобетона теплые и
              просторные, в таком Вашей семье будет комфортно и уютно жить круглый год!</p>
            <a class="select_house__button" href="#test" target="_blank">
-            <img class="select_house__button_icon" src="img/arrow.png">Рассчитать стоимость
+            <img class="select_house__button_icon" src="img/arrow.png" alt="Дом из газобетона">Рассчитать стоимость
            </a>
           </div>
         </div>
           <div  class="col-md-4 col-sm-12">
           <div class="select_house__block">
-            <img class="select_house__image" src="img/house3.jpg">
+            <img class="select_house__image" src="img/house3.jpg" alt="Дом из газобетона">
             <span class="select_house__text"><span>Дом</span> до 235 м<sup>2</sup></span>
-            <span class="select_house__icon"><img src="img/house3_icon.png"></span>
+            <span class="select_house__icon"><img сlass="select__icon" src="img/house3_icon.png" alt="Дом из газобетона"></span>
             <p class="select_house__description">Постройте себе настоящий замок - с башенками, балкончиками и эркерами. Именно такой, о котором
             Вы мечтали в детстве!</p>
            <a class="select_house__button" href="#test" target="_blank">
-            <img class="select_house__button_icon" src="img/arrow.png">Рассчитать стоимость
+            <img class="select_house__button_icon" src="img/arrow.png" alt="Дом из газобетона">Рассчитать стоимость
            </a>
           </div>
             </div>              
@@ -189,8 +321,8 @@
       <div class="col-md-2">
       <p class="vertical_text">Качество</p>
       </div>
-      <div class="col-md-9 ">
-        <div class="col-md-12">
+      <div class="col-md-9 col-sm-12">
+        <div class="col-md-12 col-sm-12">
       <div class="col-md-6">
         <img class="beton__image" src="img/brick.png" alt="Газобетон">
       </div>
@@ -289,15 +421,17 @@
           <div class="col-md-4 col-sm-12">
             <img class="present__image" src="img/present.png" alt="Дом">
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-4 col-sm-12 ">
             <button data-target=".modal_callback_design" data-toggle="modal" class="present__button">Получить</button>
           </div>
-          <div class="col-md-4 col-sm-12">
-            <p class="present__price">стоимость проекта</p>
-            <div class="prices">
+          <div class="col-md-4 col-sm-12 ">
+            <div class="prices_block">
+              <p class="present__price">стоимость проекта</p>
+            
         <span class="old-price">67 000 </span><span class="roubles">руб.</span><br> 
-        </div>      
+             
         <img class="present__tag" src="img/present_tab.png" alt="Подарок">
+      </div> 
           </div>
           </div>
         </div>
@@ -306,20 +440,23 @@
    </div>
 </div>
 <div class="clearfix"></div>
+
 <section id="test" class="container-fluid">
 <div class="container">
   <img class="test__bg2" src="img/test_sbg.png" alt="Расчет"> 
    <div class="test__area">
-  <form id="msform" action="mail.php" method="POST" enctype="multipart/form-data">
-  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br class="breaks"> за 1 минуту и получите отопление в <span>подарок!</span></h2>    
+<form id="msform" action="mail.php" method="POST">
+  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br class="breaks"> за 1 минуту и получите отопление в <span class="grey_text">подарок!</span></h2> 
+
+     
     <fieldset  class="double_section question   tests__questions">
       <input  type="hidden" name="floor"  value=""  />
-      <p class="questions"> Какова <span>этажность</span> Вашего будущего дома?</p>
+      <p class="questions"> Какова <span class="grey_text">этажность</span> Вашего будущего дома?</p>
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
-              <img class="test__image" src="img/test_11.jpg" alt="Одноэтажный дом">
+              <img class="test__image" src="img/one.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
               <input id="check1" type="radio" name="check" value="1 этаж" onclick="msform.floor.value=this.value"  >
                <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
@@ -327,7 +464,7 @@
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
               <img class="test__image" src="img/test12.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
@@ -337,7 +474,7 @@
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
               <img class="test__image" src="img/test13.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
@@ -347,7 +484,7 @@
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
               <img class="test__image" src="img/test14.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
@@ -362,22 +499,22 @@
     </fieldset>
     <fieldset>
       <input  type="hidden" name="square"  value=""  />
-    <p class="questions"> Какая <span>площадь</span> Вашего дома?</p>
+    <p class="questions"> Какая <span class="grey_text">площадь</span> Вашего дома?</p>
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
-              <span class="answer__text" onclick="msform.square.value=this.value">Дом 1 этаж от 80 м<sup>2</sup></span>
+              <span class="answer__text" >Дом 1 этаж от 80 м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon1.png" alt="Одноэтажный дом">
 
               <div class="checkbox abs_position">
-              <input id="check21" type="radio" name="check" value="Дом 1 этаж от 80 м"   >
+              <input type="radio" name="check" value="Дом 1 этаж от 80 м"  onclick="msform.square.value=this.value" >
                <label class="test__label" for="check21"></label>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
               <span class="answer__text"  >Дом 2 этажа от 140 м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon2.png" alt="Одноэтажный дом">
@@ -389,7 +526,7 @@
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
               <span class="answer__text">Дом 2 этажа от 140 до 200м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon3.png" alt="Одноэтажный дом">
@@ -400,7 +537,7 @@
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6">
              <div class="answer_block">
               <span class="answer__text">Дом от 200м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon4.png" alt="Одноэтажный дом">
@@ -416,7 +553,7 @@
     </fieldset>
     <fieldset> 
     <input  type="hidden" name="distance"  value=""  />       
-    <p class="questions"> Удаленность <span>от Москвы</span></p>
+    <p class="questions"> Удаленность <span class="grey_text" >от Москвы</span></p>
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-3">
@@ -459,7 +596,7 @@
     </fieldset>
     <fieldset> 
     <input  type="hidden" name="season"  value=""  />       
-    <p class="questions"> Когда планируете <span>начать</span> строительство? </p>
+    <p class="questions"> Когда планируете <span class="grey_text">начать</span> строительство? </p>
       <div class="row">
         <div class="col-md-12">
           <div class="col-md-3">
@@ -502,17 +639,21 @@
       </div> <!-- ряд -->        
     </fieldset>
     <fieldset class="user_info">
-     <p class="questions"> Оставьте Ваш <span>телефон</span> </p>   
-    <div class="orders__form">     
+     <p class="questions"> Оставьте Ваш <span class="grey_text">телефон</span> </p>
+
+       <div class="orders__form">     
             <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
             <input class="orders__inputs phone " placeholder="Телефон" name="user_phone" type="tel" required="required" />
           <div class="formname">
-             <input id="checkbox" type="checkbox" name="checkbox" checked />
-             <label for="checkbox">Я согласен на обработку персональных данных</label>    
+
+            <input id="checkbox_ss" type="checkbox" name="checkbox_ss" checked  onchange="document.getElementById('send').disabled = !this.checked;"/>
+             <label for="checkbox_ss">Я согласен на обработку персональных данных</label>    
        </div> 
       </div>
+
+
     </fieldset>
-    <div class="button_block">
+     <div class="button_block">
      <a class="next action-button"> Далее</a> 
      <button id="send" type="submit" class="action-button"> Отправить</button> 
      <a id="previous" class=" action-button">Назад</a>
@@ -927,7 +1068,7 @@
         </div>
 <div class="clearfix"></div>
 </div>
-</div><!-- Разобраться с закрытием секций!!!!!!!!!!!! -->
+<!-- </div> --><!-- Ошибка по Валидатору-->
 <div class="container-fluid section_paddings" id="orders">    
    <div class="container">   
       <p class="orders__question">Остались <span>вопросы</span>?<br>
@@ -940,7 +1081,7 @@
             </div>   -->           
           <div>
             <i class="fa fa-phone" aria-hidden="true"></i>
-            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone" type="tel" required="required" />
           </div>            
           <div class="formname">
              <input id="checkbox_s" type="checkbox" name="checkbox_s" checked onchange="document.getElementById('submit_s').disabled = !this.checked;" />
@@ -998,6 +1139,35 @@
     </div>
   </div>
 </div>
+
+<div class="modal fade modal_callback_details" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+      <div class="modal-body">
+        <div class="titles">
+         Наш менеджер подробно расскажет Вам об условиях и преимуществах работы с нами
+        </div>
+        <div class="form mt-20">
+         <form class="orders__form modal_form" action="call.php" method="POST">                      
+            <input class="orders__inputs"  name="purpose" type="hidden" value="информацию об условиях работы">                         
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
+          <div class="formname">
+             <input id="checkbox_det" type="checkbox" name="checkbox_det" checked onchange="document.getElementById('submit_det').disabled = !this.checked;" />
+             <label for="checkbox_m">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_det" value="Узнать подробнее" />
+           </div>             
+         </form> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="modal fade modal_callback_design" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -1014,9 +1184,9 @@
             <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
           </div>            
           <div class="formname">
-             <input id="checkbox_d" type="checkbox" name="checkbox_m" checked onchange="document.getElementById('submit_d').disabled = !this.checked;" />
+             <input id="checkbox_d" type="checkbox" name="checkbox_d" checked onchange="document.getElementById('submit_d').disabled = !this.checked;" />
              <label for="checkbox_m">Я согласен на обработку персональных данных</label>    
-            <input type="submit"  name="submit" id="submit_d" value="Позвоните мне" />
+            <input type="submit"  name="submit" id="submit_d" value="Получить дизайн-проект" />
            </div>             
          </form> 
         </div>
@@ -1024,43 +1194,15 @@
     </div>
   </div>
 </div>
-<div class="modal fade modal_callback_details" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
-      <div class="modal-body">
-        <div class="titles">
-         Наш менеджер подробно расскажет Вам об условиях и преимуществах работы с нами
-        </div>
-        <div class="form mt-20">
-         <form class="orders__form modal_form" action="call.php" method="POST">                      
-            <input class="orders__inputs"  name="purpose" type="hidden" value="информацию об условиях работы">
-          <div>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
-          </div>            
-          <div class="formname">
-             <input id="checkbox_det" type="checkbox" name="checkbox_m" checked onchange="document.getElementById('submit_det').disabled = !this.checked;" />
-             <label for="checkbox_m">Я согласен на обработку персональных данных</label>    
-            <input type="submit"  name="submit" id="submit_det" value="Узнать подробнее" />
-           </div>             
-         </form> 
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<script src="https://code.jquery.com/jquery-2.2.0.min.js" ></script>
+<script src="js/juery.js" ></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/scrollspy.min.js" ></script>
-<script src="js/script.min.js" ></script>
-<script src="js/index.js" ></script>
+<script src="js/index.js" defer></script>
 <script src="js/jquery.maskedinput.min.js"></script>
 <script>
 $(function(){ 
   $(".orders__inputs.phone").mask("+7(999) 999-99-99");
 });
 </script>
-<script src="js/jquery.fancybox.js"></script>
+<script src="js/jquery.fancybox.js" defer></script>
 </body>
 </html>
