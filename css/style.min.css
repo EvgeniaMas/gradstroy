@@ -123,7 +123,7 @@ margin-bottom: 1.25rem;
 
 .image_container {
 position: relative;
-height: 22.75rem;
+height: 16rem;
 max-width: 15.38rem; 
 padding: 0;
 margin-right: 2rem;
@@ -131,7 +131,7 @@ margin-right: 2rem;
 }
 .review_image {
 display: block;
-height: 22.75rem;
+height: 16rem;
 max-width: 15.38rem;
 position: absolute;
 top: 0;
