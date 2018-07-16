@@ -2,6 +2,17 @@
 .vertical_text {
 opacity: 0.2;
 }
+
+@media (max-width: 1024px) {
+
+.navbar-nav > li > a{
+	vertical-align:middle;
+	line-height:1.5rem;
+	padding:1rem 1rem 0 0;
+	font-family:"Proxima Nova Regular";
+	font-size:1.15rem;
+	color:#fff;
+}
 @media (max-width: 1023px) {
 .navbar-brand {
 position: relative;
