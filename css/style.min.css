@@ -211,9 +211,9 @@ p.review__long{font-size:0.9375rem;font-family:"Proxima Nova Regular";color:rgb(
 .beton__title{font-size:1.688rem;font-family:"Proxima Nova Regular";color:rgb(43, 41, 41);text-align:center;margin-top:5.938rem;margin-bottom:2rem;position:relative;z-index:3;}
 .beton__title span{color:#5aa719;}
 .beton__titleextra{font-size:1.063rem;font-family:"Proxima Nova Regular";color:#5aa719;line-height:2.588;text-align:center;position:relative;z-index:3;}
-.beton__description_title{font-size:1.5rem;font-family:"Proxima Nova Regular";position:relative;z-index:3;position:relative;z-index:3;line-height:1.375;text-align:left;}
+.beton__description_title{font-size:1.5rem;font-family:"Proxima Nova Regular";position:relative;z-index:3;position:relative;z-index:3;line-height:2.375;text-align:left;}
 .beton__description_title span{color:#5aa719;}
-.beton__description{font-size:1.5rem;font-family:"Proxima Nova Regular";color:#2b2929;position:relative;z-index:3;line-height:1.375;text-align:left;margin-bottom:2.188rem;}
+.beton__description{font-size: 1.125rem;font-family:"Proxima Nova Regular";color:#2b2929;position:relative;z-index:3;line-height:1.375;text-align:left;margin-bottom:2.188rem;}
 .beton__description span{color:#5aa719;}
 span.red_text{color:#e22626;}
 img.beton__image{display:block;max-width:21.88rem;width:100%;-webkit-filter:drop-shadow(0.3125rem 0.3125rem 0.3125rem #222);filter:drop-shadow(0.3125rem 0.3125rem 0.3125rem #222);position:relative;z-index:3;margin:auto;}

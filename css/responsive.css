@@ -243,6 +243,7 @@ top: 30px;
 .phone_container  {
 position: relative;
 width: 100%;
+padding-top: 10px;
 }
 #orders {
 padding-bottom: 30px;
