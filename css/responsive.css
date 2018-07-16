@@ -3,15 +3,16 @@
 opacity: 0.2;
 }
 
-@media (max-width: 1024px) {
-
+/*@media (max-width: 1200px) {*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
 .navbar-nav > li > a{
 	vertical-align:middle;
 	line-height:1.5rem;
 	padding:1rem 1rem 0 0;
 	font-family:"Proxima Nova Regular";
-	font-size:1.15rem;
+	font-size:1rem!important;
 	color:#fff;
+}
 }
 @media (max-width: 1023px) {
 .navbar-brand {
