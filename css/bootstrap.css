@@ -292,13 +292,10 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-a {
-  color: #fff;
-  text-decoration: none;
-}
+
 a:hover,
 a:focus {
-  color: #fff;
+  
   text-decoration: none;
   opacity: 0.9;
 }

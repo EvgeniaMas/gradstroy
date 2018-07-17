@@ -129,7 +129,7 @@ border-bottom:  0.0625rem solid #fff;
 background-color: transparent;
 font-size: 1.5rem;
 color: #fff;  
-margin-right: 5.125rem;
+/*margin-right: 5.125rem;*/
 position: relative;
 margin-bottom: 1.25rem;
 display: block;
@@ -186,11 +186,7 @@ color: rgb(120, 191, 59);
 <noscript><div><img src="https://mc.yandex.ru/watch/49623922" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-<link rel="stylesheet" href="css/style.min.css">
-<link rel="stylesheet" href="css/jquery.fancybox.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="css/css_slider.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
 </head>
 <body>
 <div class="wrapper"> 
@@ -228,16 +224,16 @@ color: rgb(120, 191, 59);
 
     	     <a href="tel:+74953231243" class="header__phone">+7 (495) 323-12-43</a>
 
-            <a class="header__order callback_link" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать</a>                    
+            <a class="header__order callback_link" href="#" data-target=".modal_callback" data-toggle="modal"> Заказать звонок</a>                    
      </div>
 </div>
 </div>
 <div class="container">
   <div class="col-md-9">
     <h1 class="header__activity">Узнайте стоимость строительства дома <br class="breaks"> 
-    из газобетона <span> «Под ключ»</span> <br class="breaks">  ответив на 5 вопросов!</h1>
+    из газобетона <span> «Под ключ»</span> <br class="breaks">  ответив на 4 вопроса!</h1>
     
-    <p class="header__questions">Ответьте на 5 вопросов и получите:</p>
+    <p class="header__questions">Ответьте на 4 вопроса и получите:</p>
     <span class="result result1">Сметную стоимость дома</span> <span class="result">Бесплатный эскиз</span> <span class="result">Установку отопления в подарок</span><br>
     <a href="#test" class="header__order callback">Узнать стоимость</a><br>
     <p class="sum_notchanged">Итоговый расчет стоимости <span>не изменится</span> в процессе строительства!</p>
@@ -470,53 +466,51 @@ color: rgb(120, 191, 59);
 <div class="clearfix"></div>
 
 <section id="test" class="container-fluid">
-<div class="container">
+<div class="container questions__container">
   <img class="test__bg2" src="img/test_sbg.png" alt="Расчет"> 
    <div class="test__area">
 <form id="msform" action="mail.php" method="POST" onsubmit="yaCounter49623922.reachGoal ('TEST'); return true;"  >
-  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br class="breaks"> за 1 минуту и получите отопление в <span class="grey_text">подарок!</span></h2> 
-
-     
+  <h2 class="count">Рассчитайте стоимость строительства дома из газоблока “под ключ” <br class="breaks"> за 1 минуту и получите отопление в <span class="grey_text">подарок!</span></h2>     
     <fieldset  class="double_section question   tests__questions">
-      <input  type="hidden" name="floor"  value=""  />
+     
       <p class="questions"> Какова <span class="grey_text">этажность</span> Вашего будущего дома?</p>
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big">
               <img class="test__image" src="img/one.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check1" type="radio" name="check" value="1 этаж" onclick="msform.floor.value=this.value"  >
+              <input class="checked_answer" id="check1" type="radio" name="check" value="1 этаж" onclick="msform.floor.value=this.value"  >
                <label class="test__label" for="check1"></label><span class="answer__text">1 этаж</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big">
               <img class="test__image" src="img/test12.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check2" type="radio" name="check" value="2 этажа"  onclick="msform.floor.value=this.value" >
+              <input class="checked_answer" id="check2" type="radio" name="check" value="2 этажа"  onclick="msform.floor.value=this.value" >
                <label class="test__label" for="check2"></label><span class="answer__text">2 этажа</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big">
               <img class="test__image" src="img/test13.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check3" type="radio" name="check" value="3 и более" onclick="msform.floor.value=this.value"  >
+              <input class="checked_answer" id="check3" type="radio" name="check" value="3 и более" onclick="msform.floor.value=this.value"  >
                <label class="test__label" for="check3"></label><span class="answer__text">3 и более</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big">
               <img class="test__image" src="img/test14.jpg" alt="Одноэтажный дом">
               <div class="checkbox">
-              <input id="check4" type="radio" name="check" value="с мансардой" onclick="msform.floor.value=this.value">
+              <input class="checked_answer" id="check4" type="radio" name="check" value="с мансардой" onclick="msform.floor.value=this.value">
                <label class="test__label" for="check4"></label><span class="answer__text">с мансардой</span>
                 <br>    
                </div> 
@@ -526,51 +520,50 @@ color: rgb(120, 191, 59);
       </div> <!-- ряд -->            
     </fieldset>
     <fieldset>
-      <input  type="hidden" name="square"  value=""  />
+
     <p class="questions"> Какая <span class="grey_text">площадь</span> Вашего дома?</p>
       <div class="row">
-        <div class="col-md-12">
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
-              <span class="answer__text" >Дом 1 этажа от 80 м<sup>2</sup></span>
+        <div class="col-md-12 ">
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big ">
+              <span class="answer__text square" >Дом 1 этаж<br class="test_breaks"> от 80 м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon1.png" alt="Одноэтажный дом">
-
               <div class="checkbox abs_position">
-              <input id="check21" type="radio" name="check" value="Дом 1 этажа от 80 м"  onclick="msform.square.value=this.value" >
+              <input class="checked_answer" id="check21" type="radio" name="check" value="Дом 1 этаж от 80 м"  onclick="msform.square.value=this.value" >
                <label class="test__label" for="check21"></label>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
-              <span class="answer__text"  >Дом 2 этажа от 140 м<sup>2</sup></span>
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big ">
+              <span class="answer__text square"  >Дом 2 этажа <br class="test_breaks">от 140 м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon2.png" alt="Одноэтажный дом">
 
               <div class="checkbox abs_position">
-              <input id="check22" type="radio" name="check" value="Дом 2 этажа от 140 м" onclick="msform.square.value=this.value">
+              <input class="checked_answer" id="check22" type="radio" name="check" value="Дом 2 этажа от 140 м" onclick="msform.square.value=this.value">
                <label class="test__label" for="check22"></label>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
-              <span class="answer__text">Дом 2 этажа от 140 до 200м<sup>2</sup></span>
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big square">
+              <span class="answer__text square">Дом 2 этажа <br class="test_breaks">от 140 до 200м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon3.png" alt="Одноэтажный дом">
               <div class="checkbox abs_position">
-              <input id="check23" type="radio" name="check" value="Дом 2 этажа от 140 до 200м" onclick="msform.square.value=this.value">
+              <input class="checked_answer" id="check23" type="radio" name="check" value="Дом 2 этажа от 140 до 200м" onclick="msform.square.value=this.value">
                <label class="test__label" for="check23"></label>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3 col-sm-6">
-             <div class="answer_block">
-              <span class="answer__text">Дом от 200м<sup>2</sup></span>
+          <div class="col-md-3 col-sm-6 questions__container">
+             <div class="answer_block big square">
+              <span class="answer__text square">Дом от 200м<sup>2</sup></span>
               <img class="test__image black" src="img/slide_icon4.png" alt="Одноэтажный дом">
               <div class="checkbox abs_position">
-              <input id="check24" type="radio" name="check" value="Дом от 200м" onclick="msform.square.value=this.value" >
+              <input class="checked_answer" id="check24" type="radio" name="check" value="Дом от 200м" onclick="msform.square.value=this.value" >
                <label class="test__label" for="check24"></label>
                 <br>    
                </div> 
@@ -579,42 +572,41 @@ color: rgb(120, 191, 59);
        </div> <!-- 12 колонок -->
       </div> <!-- ряд -->       
     </fieldset>
-    <fieldset> 
-    <input  type="hidden" name="distance"  value=""  />       
+    <fieldset>
     <p class="questions"> Удаленность <span class="grey_text" >от Москвы</span></p>
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check31" type="radio" name="check" value="В черте города"  onclick="msform.distance.value=this.value"  >
+              <input class="checked_answer" id="check31" type="radio" name="check" value="В черте города"  onclick="msform.distance.value=this.value"  >
                <label class="test__label" for="check31"></label><span class="answer__text">В черте города</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check32" type="radio" name="check" value="До 50 км" onclick="msform.distance.value=this.value">
+              <input class="checked_answer" id="check32" type="radio" name="check" value="До 50 км" onclick="msform.distance.value=this.value">
                <label class="test__label" for="check32"></label><span class="answer__text">До 50 км</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check33" type="radio" name="check" value="От 51 км" onclick="msform.distance.value=this.value">
+              <input class="checked_answer" id="check33" type="radio" name="check" value="От 51 км" onclick="msform.distance.value=this.value">
                <label class="test__label" for="check33"></label><span class="answer__text">От 51 км</span>
                     
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check34" type="radio" name="check" value="Другой регион" onclick="msform.distance.value=this.value"  ><label class="test__label" for="check34"></label><span class="answer__text">Другой регион</span>
+              <input class="checked_answer" id="check34" type="radio" name="check" value="Другой регион" onclick="test.distance.value=this.value"  ><label class="test__label" for="check34"></label><span class="answer__text">Другой регион</span>
                 <br>    
                </div> 
            </div>
@@ -622,43 +614,42 @@ color: rgb(120, 191, 59);
        </div> <!-- 12 колонок -->
       </div> <!-- ряд -->        
     </fieldset>
-    <fieldset> 
-    <input  type="hidden" name="season"  value=""  />       
+    <fieldset>    
     <p class="questions"> Когда планируете <span class="grey_text">начать</span> строительство? </p>
       <div class="row">
         <div class="col-md-12">
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check41" type="radio" name="check" value="В ближайшее время" onclick="msform.season.value=this.value"  >
+              <input class="checked_answer" id="check41" type="radio" name="check" value="В ближайшее время" onclick="quizz.season.value=this.value"  >
                <label class="test__label" for="check41"></label><span class="answer__text">В ближайшее время</span>
                 <br>    
                </div> 
            </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check42" type="radio" name="check" value="осенью" onclick="msform.season.value=this.value"  >
+              <input class="checked_answer" id="check42" type="radio" name="check" value="осенью" onclick="quizz.season.value=this.value"  >
                <label class="test__label" for="check42"></label><span class="answer__text">Осенью</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 c0l-sm-6 questions__container">
               <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check43" type="radio" name="check" value="весной" onclick="msform.season.value=this.value"  >
+              <input class="checked_answer" id="check43" type="radio" name="check" value="весной" onclick="quizz.season.value=this.value"  >
                <label class="test__label" for="check43"></label><span class="answer__text">Весной</span>
                 <br>    
                </div> 
            </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-sm-6 questions__container">
              <div class="answer_blocks small">
               <div class="checkbox">
-              <input id="check44" type="radio" name="check" value="другое время" onclick="msform.season.value=this.value"  ><label class="test__label" for="check44"></label><span class="answer__text">Другое</span>
+              <input class="checked_answer" id="check44" type="radio" name="check" value="другое время" onclick="msform.season.value=this.value"  ><label class="test__label" for="check44"></label><span class="answer__text">Другое</span>
                 <br>    
                </div> 
            </div>
@@ -667,29 +658,40 @@ color: rgb(120, 191, 59);
       </div> <!-- ряд -->        
     </fieldset>
     <fieldset class="user_info">
-     <p class="questions"> Оставьте Ваш <span class="grey_text">телефон</span> </p>
-
-       <div class="orders__form">     
-            <!-- <i class="fa fa-phone" aria-hidden="true"></i> -->
-            <input class="orders__inputs phone " placeholder="Телефон" name="user_phone" type="tel" required="required" />
+ <div class="modal-dialog test">
+    <div class="modal-content tests_content">
+      <button type="button" id="close_test_form" class="close">
+       <span aria-hidden="true"></span></button>
+       <div class="titles">
+          Оставьте Ваш телефон
+        </div>
+      <div class="modal-body orders__form modal_form">
+        
+        <div class="form mt-20">                
+            <input class="orders__inputs" name="purpose" type="hidden" value="обратный звонок" />                         
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
           <div class="formname">
-
-            <input id="checkbox_ss" type="checkbox" name="checkbox_ss" checked  onchange="document.getElementById('send').disabled = !this.checked;"/>
-             <label for="checkbox_ss">Я согласен на обработку персональных данных</label>    
-       </div> 
-      </div>
-
-
-    </fieldset>
+             <input id="checkbox_t" type="checkbox" name="checkbox_t" checked onchange="document.getElementById('submit_t').disabled = !this.checked;" />
+             <label for="checkbox_t">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_t" value="Отправить" />
+           </div>             
+        
+        </div> <!-- form mt-20 -->
+      </div><!-- orders__form modal_form -->
+    </div>
+   </div>
+   </fieldset>
      <div class="button_block">
-     <a id="previous" class=" action-button">Назад</a>
-     <button id="send" type="submit"    class="action-button"> Отправить</button> 
-     <a class="next action-button"> Далее</a> 
+     <a id="previous" class=" action-button">Назад</a> 
      </div>
 </form> 
 </div> 
 </div>
 </section>
+<div id="blindLayer"></div>
 <div id="company" class="container-fluid"> 
   <div class="container">    
      <h2 class="company__title">Почему вы обязательно выберете нас?</h2>
@@ -921,7 +923,7 @@ color: rgb(120, 191, 59);
 <div class="csslider infinity" id="slider13">
 <input type="radio" name="slides" id="slides_13"/>
 <input type="radio" name="slides" checked="checked" id="slides_23"/>
-<input type="radio" name="slides" id="slides_33"/>  
+<!-- <input type="radio" name="slides" id="slides_33"/>  --> 
 <ul>
 <li class="scrollable">
 <a  data-fancybox="gallery" href="portfolio/31.jpg"><img class="review_image" src="portfolio/31s.jpg"></a>   
@@ -929,9 +931,9 @@ color: rgb(120, 191, 59);
 <li>
 <div class="centers"> <a  data-fancybox="gallery" href="portfolio/32.jpg"><img class="review_image" src="portfolio/32s.jpg"></a>     </div>
 </li>
-<li>
+<!-- <li>
 <div class="centers"><a  data-fancybox="gallery" href="portfolio/33.jpg"><img class="review_image" src="portfolio/33s.jpg"></a>     </div>
-</li>
+</li> -->
 </ul>
 <!-- <div class="arrows">
 <label for="slides_13"></label>
@@ -944,7 +946,7 @@ color: rgb(120, 191, 59);
 <div>
 <label for="slides_13"></label>
 <label for="slides_23"></label>
-<label for="slides_33"></label>      
+<!-- <label for="slides_33"></label> -->      
 </div>
 </div>
 </div>
@@ -965,7 +967,7 @@ color: rgb(120, 191, 59);
 <div class="csslider infinity" id="slider14">
 <input type="radio" name="slides" id="slides_14"/>
 <input type="radio" name="slides" checked="checked" id="slides_24"/>
-<input type="radio" name="slides" id="slides_34"/>  
+<!-- <input type="radio" name="slides" id="slides_34"/> -->  
 <ul>
 <li class="scrollable">
 <a  data-fancybox="gallery" href="portfolio/41.jpg"><img class="review_image" src="portfolio/41s.jpg"></a>   
@@ -973,9 +975,9 @@ color: rgb(120, 191, 59);
 <li>
 <div class="centers"> <a  data-fancybox="gallery" href="portfolio/42.jpg"><img class="review_image" src="portfolio/42s.jpg"></a>     </div>
 </li>
-<li>
+<!-- <li>
 <div class="centers"><a  data-fancybox="gallery" href="portfolio/43.jpg"><img class="review_image" src="portfolio/43s.jpg"></a>     </div>
-</li>
+</li> -->
 </ul>
 <!-- <div class="arrows">
 <label for="slides_14"></label>
@@ -988,7 +990,7 @@ color: rgb(120, 191, 59);
 <div>
 <label for="slides_14"></label>
 <label for="slides_24"></label>
-<label for="slides_34"></label>      
+<!-- <label for="slides_34"></label>   -->    
 </div>
 </div>
 </div>
@@ -1001,7 +1003,7 @@ color: rgb(120, 191, 59);
 <div class="csslider infinity" id="slider12">
 <input type="radio" name="slides" id="slides_15"/>
 <input type="radio" name="slides" checked="checked" id="slides_25"/>
-<input type="radio" name="slides" id="slides_35"/>  
+<!-- <input type="radio" name="slides" id="slides_35"/>  --> 
 <ul>
 <li class="scrollable">
 <a  data-fancybox="gallery" href="portfolio/51.jpg"><img class="review_image" src="portfolio/51s.jpg"></a>   
@@ -1009,9 +1011,9 @@ color: rgb(120, 191, 59);
 <li>
 <div class="centers"> <a  data-fancybox="gallery" href="portfolio/52.jpg"><img class="review_image" src="portfolio/52s.jpg"></a>     </div>
 </li>
-<li>
+<!-- <li>
 <div class="centers"><a  data-fancybox="gallery" href="portfolio/53.jpg"><img class="review_image" src="portfolio/53s.jpg"></a>     </div>
-</li>
+</li> -->
 </ul>
 <!-- <div class="arrows">
 <label for="slides_15"></label>
@@ -1024,7 +1026,7 @@ color: rgb(120, 191, 59);
 <div>
 <label for="slides_15"></label>
 <label for="slides_25"></label>
-<label for="slides_35"></label>      
+<!-- <label for="slides_35"></label> -->      
 </div>
 </div>
 </div>
@@ -1045,7 +1047,7 @@ color: rgb(120, 191, 59);
 <div class="csslider infinity" id="slider16">
 <input type="radio" name="slides" id="slides_16"/>
 <input type="radio" name="slides" checked="checked" id="slides_26"/>
-<input type="radio" name="slides" id="slides_36"/>  
+<!-- <input type="radio" name="slides" id="slides_36"/> -->  
 <ul>
 <li class="scrollable">
 <a  data-fancybox="gallery" href="portfolio/61.jpg"><img class="review_image" src="portfolio/61s.jpg"></a>   
@@ -1053,9 +1055,9 @@ color: rgb(120, 191, 59);
 <li>
 <div class="centers"> <a  data-fancybox="gallery" href="portfolio/62.jpg"><img class="review_image" src="portfolio/62s.jpg"></a>     </div>
 </li>
-<li>
+<!-- <li>
 <div class="centers"><a  data-fancybox="gallery" href="portfolio/63.jpg"><img class="review_image" src="portfolio/63s.jpg"></a>     </div>
-</li>
+</li> -->
 </ul>
 <!-- <div class="arrows">
 <label for="slides_16"></label>
@@ -1068,7 +1070,7 @@ color: rgb(120, 191, 59);
 <div>
 <label for="slides_16"></label>
 <label for="slides_26"></label>
-<label for="slides_36"></label>      
+<!-- <label for="slides_36"></label>  -->     
 </div>
 </div>
 </div>                      
@@ -1162,6 +1164,36 @@ color: rgb(120, 191, 59);
     </div>
   </div>
 </div>
+<!-- callback -->
+<div class="modal fade modal_test" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+      <div class="modal-body">
+        <div class="titles">
+          Оставьте Ваш телефон
+        </div>
+        <div class="form mt-20">
+      <form class="orders__form modal_form" action="call.php" method="POST" onsubmit="yaCounter49623922.reachGoal ('TEST'); return true;" >            
+            <input class="orders__inputs" name="purpose" type="hidden" value="обратный звонок" />                         
+          <div>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <input class="orders__inputs phone" placeholder="Телефон" name="user_phone"" type="tel" required="required" />
+          </div>            
+          <div class="formname">
+             <input id="checkbox_t" type="checkbox" name="checkbox_t" checked onchange="document.getElementById('submit_t').disabled = !this.checked;" />
+             <label for="checkbox_t">Я согласен на обработку персональных данных</label>    
+            <input type="submit"  name="submit" id="submit_t" value="Отправить" />
+           </div>             
+         </form> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 <div class="modal fade modal_callback_cond" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
@@ -1215,6 +1247,11 @@ color: rgb(120, 191, 59);
     </div>
   </div>
 </div>
+<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/css_slider.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 <script src="js/juery.js" ></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/index.js" defer></script>

@@ -23,12 +23,7 @@ text-align: center;
 }
 }
 @media only screen and ( max-width: 991px) {
-.sum_notchanged {
-font-size: 22px;
-line-height: 25px;
-text-align: left;
-width: 70%;
-}
+
 .titles {
 font-size: 1.5rem;
 font-family: "Proxima Nova Regular";
@@ -189,9 +184,7 @@ line-height: 30px;
 margin:auto;
 margin-top: 23%;
 }
-.header__activity span {
-color: rgb(85, 85, 85);
-}
+
 #header {
 height: auto;
 min-height: 800px;
@@ -249,15 +242,51 @@ margin-right: 10px;
 }
 }
 @media (max-width: 767px) {
+.navbar-default .navbar-toggle{
+display: none;
+}
+
+
+.navbar-brand{
+display: block;
+text-align: center;
+width: 100%;
+}
+a.header__phone{
+    margin-top: 2rem;
+    display: block;
+text-align: center;
+}  
+a.callback_link{
+
+border: none;
+text-decoration: underline;
+display: block;
+text-align: center;
+width: 100%;
+}
+
+span.result {
+text-align: center;
+}  
 .example__text.mobile {
 top: 30px;
 padding-left: 10px;
 }
 .beton__description_title {
     font-size: 1.5rem;
-    line-height: 1.6rem;
-   
+    line-height: 1.6rem;   
 }
+.sum_notchanged {
+display: none;
+}
+#header {
+padding-bottom: 2rem;
+}
+.green_block {
+    display: none;
+}
+
 .beton__container {
 	padding-right:0;
 	padding-left: 0;
@@ -287,11 +316,14 @@ float: right;
 margin-bottom: 20px;
 border-bottom: 1px solid rgb(85, 85, 85);
 }
-.header__phone:hover,
-.callback_link:hover,
-.header__phone:visited,
-.callback_link:visited{
-color: rgb(85, 85, 85);
+a.header__phone:hover,
+a.header__order.callback:hover,
+a.header__phone:visited,
+a.header__order.callback:visited,
+a.header__phone:active,
+a.header__order.callback:active,
+{
+color: rgb(85, 85, 85)!important;
 }
 .orders__form {
 margin-top: 30px;
@@ -321,8 +353,39 @@ line-height: 25px;
 .count {
 padding-top: 10px;
 }
+img.test__image {
+    display: none;
+}
+.answer_blocks.small,
+.answer_block.big{
+height:4.5rem;
+
+max-width:22.875rem;
+background-color:#7cc33f;
+border-radius:0.625rem;
+box-shadow:0 0.3125rem 1.313rem 0.3125rem rgba(0, 0, 0, .5);
+position:relative;
+z-index:7;
+padding-bottom:1.25rem;
+margin:auto;
+margin-bottom: 1rem;}
+div.checkbox{
+    padding-top: 0.9rem;
+}
+.answer_block.big.square {
+   height:4.9rem; 
+}
+span.answer__text.square {
+    
+    padding-top: 20px;
+    display: inline-block;
+    
+}
 }
 @media only screen and ( max-width: 500px) {
+.test_breaks {
+    display: block;
+}    
 .svg_icons {
 max-width: 120px;
 max-height: 120px;
@@ -359,6 +422,25 @@ min-height: 350px;
 display: block;
 padding: 10px;
 }
+.questions__container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+   
+}
+.titles {
+    font-size: 1rem;    
+    line-height: 1.1rem;
+}
+
+button.close {    
+    right: 0.625rem;
+    top: 0.625rem;
+    width: 2rem;
+    height: 2rem;    
+}
+.orders__form{padding:1rem;}
+
+
 
 .select_house__button {
     width: 15rem;
@@ -394,6 +476,15 @@ img.arrows.arrow_right {
 .example__description {
     font-size: 0.9rem;    
     line-height: 1rem;
+}
+span.answer__text {
+    font-size: 0.9rem;
+   
+    
+}
+span.answer__text.square{
+     padding-top: 5px;
+    display: inline-block;
 }
 }
 
