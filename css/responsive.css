@@ -251,6 +251,19 @@ margin-right: 10px;
 @media (max-width: 767px) {
 .example__text.mobile {
 top: 30px;
+padding-left: 10px;
+}
+.beton__description_title {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+   
+}
+.beton__container {
+	padding-right:0;
+	padding-left: 0;
+}
+img.beton__image {    
+    max-width: 18rem;
 }
 .phone_container  {
 position: relative;
@@ -315,7 +328,7 @@ max-width: 120px;
 max-height: 120px;
 }
 img.examples_slides.mobile {
-min-height: 500px;
+min-height: 400px;
 display: block;
 }
 .titles {
@@ -323,7 +336,65 @@ font-size: 1.3rem;
 font-family: "Proxima Nova Regular";
 line-height: 1.3rem;
 }
+
+.col-md-12.slider__container {
+	padding-left: 0;
+	padding-right: 0;
+
 }
-@media only screen and ( max-width: 350px) {
+.example__description {
+    font-size: 1rem;
+    font-family: "Proxima Nova Regular";
+    color: rgb(255, 255, 255);
+    line-height: 1.1rem;
+}
+.example__text.mobile {
+    top: 20px;
+    
 }
 }
+@media only screen and ( max-width: 400px) {
+img.examples_slides.mobile {
+min-height: 350px;
+display: block;
+padding: 10px;
+}
+
+.select_house__button {
+    width: 15rem;
+    height: 2.625rem;
+    line-height: 1rem;
+}
+.select_house__text {
+    font-size: 1.2rem;    
+    line-height: 1.3rem;
+    }
+
+img.arrows.arrow_left {
+    left: 5px;
+}
+
+
+img.beton__image {    
+    max-width: 16rem;
+}
+
+
+img.arrows.arrow_right {
+    right: 5px;
+}
+
+.example__title.mobile {
+    font-size: 1rem;
+}
+#examples_m.container-fluid {
+	padding-right: 0;
+	padding-left: 0;
+}
+.example__description {
+    font-size: 0.9rem;    
+    line-height: 1rem;
+}
+}
+
+    

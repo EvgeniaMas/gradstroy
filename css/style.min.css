@@ -195,7 +195,7 @@ max-width:21.875rem;background-color:#7cc33f;border-radius:0.625rem;box-shadow:0
 .example__text.mobile{width:90%;max-width:90%;margin:auto;bottom:1.875rem;left:50%;margin-left:-45%;display:block;background-color:rgba(52,107,5, 0.7);padding-top:1.25rem;padding-bottom:1.25rem;}
 .example__title{font-size:1.625rem;font-family:"Proxima Nova Regular";color:rgb(255, 255, 255);font-variant:small-caps;line-height:1.115;text-align:left;margin-left:30%;}
 .example__title.mobile{font-size:1.25rem;font-family:"Proxima Nova Regular";color:rgb(255, 255, 255);line-height:1.25rem;text-align:center;margin-left:0.125rem;}
-.example__description{font-size:0.9375rem;font-family:"Proxima Nova Regular";color:rgb(255, 255, 255);line-height:1.375rem;text-align:left;margin-left:10%;}
+.example__description{font-size:0.9375rem;font-family:"Proxima Nova Regular";color:rgb(255, 255, 255);line-height:1.375rem;text-align:left;margin-left:1%;}
 .example__description.mobile{margin-left:2%;width:90%;margin:auto;}
 .example__description span{display:block;margin-left:-20%;}
 #carousel-example-generic_m>{}

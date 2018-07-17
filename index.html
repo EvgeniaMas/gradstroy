@@ -349,12 +349,12 @@ color: rgb(120, 191, 59);
       <div class="col-md-2">
       <p class="vertical_text">Качество</p>
       </div>
-      <div class="col-md-9 col-sm-12">
-        <div class="col-md-12 col-sm-12">
-      <div class="col-md-6">
+      <div class="col-md-9 col-sm-12 beton__container">
+        <div class="col-md-12 col-sm-12 beton__container">
+      <div class="col-md-6 beton__container">
         <img class="beton__image" src="img/brick.png" alt="Газобетон">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 beton__container">
         <p class="beton__description_title"><span>Газобетон</span> и пенобетон</p>
         <p class="beton__description">
         Блоки из газобетона прочнее пенобетона, Они
@@ -372,8 +372,8 @@ color: rgb(120, 191, 59);
         дома - 450 000 руб.</p>
       </div>
     </div>
-     <div class="col-md-12 beton__mobile1">      
-      <div class="col-md-6">
+     <div class="col-md-12 beton__mobile1 beton__container">      
+      <div class="col-md-6 beton__container">
         <p class="beton__description_title"><span>Газобетон</span> и кирпич</p>
         <p class="beton__description">
         Легкие газобетонные блоки не требуют
@@ -392,11 +392,11 @@ color: rgb(120, 191, 59);
         <img class="beton__image" src="img/brick1.png" alt="Газобетон">
       </div>
     </div>
- <div class="col-md-12 beton__mobile2">
-      <div class="col-md-6">
+ <div class="col-md-12 beton__mobile2 beton__container" >
+      <div class="col-md-6 beton__container">
         <img class="beton__image" src="img/brick1.png" alt="Газобетон">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 beton__container">
         <p class="beton__description_title"><span>Газобетон</span> и кирпич</p>
         <p class="beton__description">
         Легкие газобетонные блоки не требуют
@@ -412,11 +412,11 @@ color: rgb(120, 191, 59);
         <span class="red_text"> Кирпич:</span> стоимость 1 кв.м от 19 160 руб.</p>
       </div>
   </div>
-     <div class="col-md-12">
-      <div class="col-md-6">
+     <div class="col-md-12 beton__container">
+      <div class="col-md-6 beton__container">
         <img class="beton__image" src="img/brick2.png" alt="Газобетон">
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 beton__container">
         <p class="beton__description_title"><span>Газобетон</span> и дерево</p>
         <p class="beton__description">
         Газобетон пожароустойчив. 
@@ -779,7 +779,7 @@ color: rgb(120, 191, 59);
    <h2 class="examples__title">Как мы <span>работаем</span></h2>   
    <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 slider__container">
             <div id="carousel-example-generic_m" class="carousel slide" data-ride="carousel">
               <!-- SLIDES -->
               <div class="carousel-inner" role="listbox">
@@ -800,7 +800,7 @@ color: rgb(120, 191, 59);
                   <img class="examples_slides mobile" alt="Примеры работ" src="img/second_slide.jpg">
                   <div class="example__text mobile">
                    <p class="example__title mobile">Гарантия</p>
-                   <p class="example__description mobile">Поскольку основной идеей и миссией нашей компании является именно качественное строительство домов,мы представляем гарантию 5 лет. Обращаясь в Градстрой, вы гарантируете себе, что вашежилище будет надежным и крепким долгие годы!</p>
+                   <p class="example__description mobile">Поскольку основной идеей и миссией нашей компании является именно качественное строительство домов,мы представляем гарантию 5 лет. Обращаясь в Градстрой, вы гарантируете себе, что ваше жилище будет надежным и крепким долгие годы!</p>
               </div>
                 </div>
                 <div class="item">
@@ -1096,17 +1096,12 @@ color: rgb(120, 191, 59);
         </div>
 <div class="clearfix"></div>
 </div>
-<!-- </div> --><!-- Ошибка по Валидатору-->
 <div class="container-fluid section_paddings" id="orders">    
    <div class="container">   
       <p class="orders__question">Остались <span>вопросы</span>?<br>
          Заполните форму ниже и наш менеджер перезвонит вам через 2 минуты </p>
 <form class="orders__form" action="call.php" method="POST" onsubmit="yaCounter49623922.reachGoal ('CALL'); return true;"  >
-             <input class="orders__inputs" name="purpose" type="hidden" value="обратный звонок" />
-            <!-- <div>
-            <i class="fa fa-user" aria-hidden="true"></i>
-            <input class="orders__inputs"  placeholder="Имя" name="user_name" type="text" required="required"/>
-            </div>   -->           
+             <input class="orders__inputs" name="purpose" type="hidden" value="обратный звонок" />         
           <div>
             <i class="fa fa-phone" aria-hidden="true"></i>
             <input class="orders__inputs phone" placeholder="Телефон" name="user_phone" type="tel" required="required" />
