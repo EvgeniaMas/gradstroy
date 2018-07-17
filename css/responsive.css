@@ -377,15 +377,20 @@ div.checkbox{
 }
 span.answer__text.square {
     
-    padding-top: 20px;
+   
+    width: 55%;
+    margin:auto;
+    line-height: 1.2rem;
+    margin-top: 20px;
     display: inline-block;
     
 }
 }
 @media only screen and ( max-width: 500px) {
-.test_breaks {
-    display: block;
-}    
+
+
+ 
+
 .svg_icons {
 max-width: 120px;
 max-height: 120px;

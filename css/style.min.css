@@ -48,6 +48,153 @@ header{background:transparent;padding:0;}
 .navbar-default .navbar-nav > li > a{color:#fff}
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover{background-color:transparent;}
+
+
+.wrapper {
+margin:auto;
+height: 100%;    
+}
+#header__top{
+max-width: 191.25rem;
+margin:auto;
+}
+#header {
+position:relative;
+height: 100vh;
+max-height: 63.19rem;
+min-height:50rem;
+padding-bottom: 8.813rem;
+background-color:#f3f3f1;
+padding-top: 1.875rem;
+}
+.header__order.callback {
+background-color: rgb( 124, 195, 63 );
+box-shadow: 0.087px 0.25rem 0.5rem 0 rgb( 54, 110, 6 );
+width: 14.44rem;
+height:3.375rem;
+line-height:3.375rem;
+margin:auto;
+margin-bottom:3.375rem;
+margin-top:3.125rem;
+font-size: 1.25rem;
+font-family: "Proxima Nova Regular";
+color: rgb( 255, 255, 255 );
+text-align: center;
+border-radius: 1.25rem;
+display: block;
+}
+.header__questions {  
+font-size:1.563rem;
+font-family: "Proxima Nova Regular";
+color: rgb( 85, 85, 85 );
+text-align: center;
+margin-top: 3.75rem;
+margin-bottom: 3.75rem;
+}
+.green_block {
+position:absolute;
+height: 100vh;
+top: 0;
+right: 0;
+width: 30.9%;
+background:url(../img/elips.png) no-repeat;
+background-size:cover;
+background-position:center center;
+min-height:50rem;
+padding-bottom: 8.813rem;
+}
+.header_house {
+display: block;
+position: absolute;
+max-width: 30.44rem;
+width: 70%;
+top: 20%;
+left: -20%;
+}
+.navbar-brand {
+position: absolute;
+font-size: 1.25rem;
+font-family: "Proxima Nova Regular";
+color: rgb(120, 191, 59);
+line-height: 1.2;
+text-align: center;
+left: 0;
+top: 0; 
+}
+a.navbar-brand:hover{
+color: rgb(120, 191, 59);
+cursor: default;
+}
+a.navbar-brand span {
+font-family: "Proxima Nova Regular";
+}
+.phone_container  {
+position: absolute;
+right: 0;
+top: 0;
+width: 30%;
+}
+.navbar-brand span{
+font-weight: normal;
+}
+.navbar.navbar-default {
+background-color: transparent!important;
+border: none;  
+}
+.navbar-default .navbar-nav > li > a { 
+font-size: 1.25rem;
+font-family: "Proxima Nova Regular";
+color:#787878!important;
+line-height: 1.2;
+text-align: left;
+}
+.navbar-default .navbar-nav > li:last-child>a{
+padding-right: 0!important}
+.navbar-default .navbar-nav > li > a:hover{
+color: rgb(120, 191, 59)!important;
+}
+.header__phone {
+font-size: 1.5rem;
+font-family: "Proxima Nova Light";
+color: rgb( 255, 255, 255 );
+text-align: left;
+display: block;
+text-align: right;
+}
+.callback_link{
+border:none;
+border-bottom:  0.0625rem solid #fff;
+background-color: transparent;
+font-size: 1.5rem;
+color: #fff;  
+position: relative;
+margin-bottom: 1.25rem;
+display: block;
+float: right;
+}
+.header__activity {
+font-size: 2.063rem;
+font-family: "Proxima Nova Regular";
+color: rgb(85, 85, 85);
+line-height: 1.2;
+text-align: left;
+z-index: 14;
+margin-top: 10%;
+}
+.sum_notchanged {
+font-size:1.375rem;
+font-family: "Proxima Nova Regular ";
+color: rgb(53, 52, 52);
+line-height: 1.2;
+text-align: center;
+}
+.header__activity span,
+.result,
+.sum_notchanged span {
+color: rgb(120, 191, 59);
+}
+
+
 #questions{min-height:21.69rem;background-color:#00d1d3;padding-bottom:2.75rem;}
 .titles{font-size:1.75rem;font-family:"Proxima Nova Regular";line-height:1.75rem;text-align:center;width:80%;margin:auto;}
 .form_inputs{height:3.75rem;width:22.19rem;display:inline-block;padding-left:2.063rem;background-color:#bff3f4;color:#8b8b8b;font-size:2.444rem;margin-right:3.875rem;border:none;margin-bottom:1.25rem;}
@@ -264,6 +411,3 @@ position: fixed;right: 0;top: 0;
 
                 }
 
-.test_breaks {
-	display: none;
-}

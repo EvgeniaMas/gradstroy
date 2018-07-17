@@ -1,3 +1,43 @@
+function loadAsyncStyleSheets() {
+    var head = document.getElementsByTagName('head')[0];
+
+    var asyncStyleSheets = [
+    'css/bootstrap.css',
+    'css/style.min.css',
+    'css/jquery.fancybox.css',
+    'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+    'css/css_slider.css',
+    'css/responsive.css'
+    ];
+
+    for (var i = 0; i < asyncStyleSheets.length; i++) {
+        var link = document.createElement('link');
+        var rel = document.createAttribute('rel');
+        var href = document.createAttribute('href');
+
+        rel.value = 'stylesheet';
+        href.value = asyncStyleSheets[i];
+
+        link.setAttributeNode(rel);
+        link.setAttributeNode(href); 
+
+        head.appendChild(link);
+    }
+}
+
+window.addEventListener('load',loadAsyncStyleSheets,false);
+
+
+
+$(function(){ 
+  $(".orders__inputs.phone").mask("+7(999) 999-99-99");
+});
+
+
+
+
+
+
 var current_fs, next_fs, previous_fs;
 var left, opacity, scale;
 var animating;
