@@ -245,7 +245,16 @@ margin-right: 10px;
 .navbar-default .navbar-toggle{
 display: none;
 }
+.process_image {
+    display: none;
+}
 
+.process_image2{
+    display: block;
+    margin:auto;
+    max-height: 120px;
+    width: 100vw;
+}
 
 .navbar-brand{
 display: block;
@@ -421,7 +430,193 @@ line-height: 1.3rem;
     
 }
 }
-@media only screen and ( max-width: 400px) {
+@media only screen and ( max-width: 767px) and (orientation:portrait){
+.process__text,
+.beton__titleextra
+ {
+    font-size: 1rem;
+    line-height: 1.3rem;
+}    
+.container-fluid{
+padding-right: 0!important;
+padding-left: 0!important;
+}
+
+.button_block {
+    min-height: 4rem;
+}
+
+
+.header__order.callback,
+.select_house__button,
+button.present__button,
+.header__order.callback,
+a.footer__callback,
+#msform .action-button
+{
+    width: 11rem;
+    max-width: 11rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
+    
+}
+.formname input[type=submit] {
+width: 14rem;
+    max-width: 14rem;
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
+}
+#orders {
+    padding-bottom: 1rem;
+}
+.prices_block {
+    width: 200px;
+    
+}
+
+
+
+.present__image {
+   
+    max-height: 200px;
+}
+
+
+.select_house__button_icon {
+    
+    padding-right: 0.5rem;
+    max-height: 1.8rem;
+}
+
+
+.reviewer__name, .review__short {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    
+}
+
+.review__container {
+    padding-bottom: 1rem;
+}
+
+.review_image {
+    display: block;
+    height: 210px;   
+    max-width: 210px;
+    
+}
+
+.advantages__title {
+    width: 80%;
+    margin:auto;
+}
+
+
+.present__button {
+    display: block;
+    margin:auto;
+}
+
+.footer__logo {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    
+}
+
+.reviewer__name,
+.review__short {
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.count {
+    font-size: 1.5rem;
+    padding-top: 0px;
+    line-height: 1.8rem;
+    
+}
+
+
+
+
+.questions {    
+    font-size: 1.1rem;
+    line-height: 1.3rem; 
+}
+span.select_house__icon {
+    max-width:2.75rem;
+    display:block;
+   margin:auto;
+margin-bottom: 1rem;
+}
+
+.select_house__text{
+    font-size: 1.1rem;
+    display: block;
+    text-align: center;
+}
+
+.select_house__description {
+    font-size: 0.9rem;
+    text-align: left;
+    color: #414243;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+}
+
+
+
+.select_house__title,
+.advantages__title,
+ h2.process__title,
+.beton__title,
+.present__title,
+h2.company__title,
+.examples__title {
+
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.header__activity {
+    
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+}
+.header__questions {
+    font-size: 1.2rem;    
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+.callback_link,
+a.header__phone {    
+    font-size: 1rem;
+}
+
+.svg_icons {
+    max-width: 80px;
+}
+
+ 
+
+
+.advantages__text {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.beton__image {
+  max-width: 12rem;
+}
+
 img.examples_slides.mobile {
 min-height: 350px;
 display: block;
@@ -448,9 +643,12 @@ button.close {
 
 
 .select_house__button {
-    width: 15rem;
+    width: 90%;
     height: 2.625rem;
     line-height: 1rem;
+    max-width: 17rem;
+    line-height: 2.625rem;
+   
 }
 .select_house__text {
     font-size: 1.2rem;    
@@ -493,4 +691,11 @@ span.answer__text.square{
 }
 }
 
+@media only screen and ( max-width: 300px) {
+.container-fluid {
+    min-width: 290px;
+    overflow-x: scroll;
+
+}
+}
     

@@ -173,7 +173,7 @@ h2.process__title{font-size:1.938rem;font-family:"Proxima Nova Regular";color:#5
 .select_house__button:hover{color:rgb(244, 244, 244);}
 .select_house__text{font-size:1.688rem;font-family:"Proxima Nova Regular";color:#414243;line-height:1.333;text-align:left;margin-bottom:1.375rem;margin-left:1.563rem;margin-right:1.813rem;display:inline-block;}
 .select_house__text span{color:rgb(91, 165, 40);}
-.select_house__description{font-size:1.063rem;font-family:"Proxima Nova Regular";color:rgb(101, 100, 100);font-variant:small-caps;line-height:1.529;text-align:left;color:#414243;margin-left:1.563rem;margin-right:1.813remx;display:block;}
+.select_house__description{font-size:1.063rem;font-family:"Proxima Nova Regular";color:rgb(101, 100, 100);font-variant:small-caps;line-height:1.529;text-align:left;color:#414243;margin-left:1.563rem;margin-right:1.813rem;display:block;}
 #test{background-image:url(../img/test_bbg.png);background-repeat:no-repeat;background-position:center;background-size:cover;min-height:43.25rem;position:relative;}
 .test__area{width:90%;margin:auto;position:relative;}
 .test__bg2{position:absolute;top:0;display:block;margin:auto;}
@@ -248,9 +248,19 @@ button.close{position:absolute;right:0.625rem;top:0.625rem;width:2.5rem;height:2
 .modal{text-align:center;}
 .modal:before{display:inline-block;vertical-align:middle;content:" ";height:100%;}
 .modal-dialog{display:inline-block;text-align:left;vertical-align:middle;}
-.modal-content.tests_content{padding: 15px;}
+
 .modal-dialog.test{z-index: 1002;}
 #blindLayer{background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);bottom: 0;left: 0;
 position: fixed;right: 0;top: 0;z-index: 1001;filter: alpha(opacity=50);display: none;height: 100%;width: 100%}
 .modal.fade.in.test {display: block;}
+.modal-body.orders__form.modal_form.test {
+background-color: transparent;
+}
+.modal-content.tests_content{padding: 15px;background-image: url(../img/test_formbg.jpg);
+background-size: cover;background-position: center;}
+.process_image2{
+display: none;
+}
+.titles.test{width: 80%;margin:auto;}
+
 
